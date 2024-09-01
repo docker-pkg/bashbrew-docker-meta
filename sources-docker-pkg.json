@@ -1,0 +1,6373 @@
+{
+  "0f1d2c9ea80b9249cdf60a6ac4045335fb384c8b72f2417be053d8e9b013d9e0": {
+    "sourceId": "0f1d2c9ea80b9249cdf60a6ac4045335fb384c8b72f2417be053d8e9b013d9e0",
+    "reproducibleGitChecksum": "56ad76c81c8e74dcd328aa1a6cab110833ccc539d30fe27d046a8653048308a6",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "4922d021769ad38f171259fbce3a913cf5c863bd",
+      "Directory": "backblaze-b2",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1722621935
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/backblaze-b2:4.1.0",
+          "docker-pkg/backblaze-b2:4.1",
+          "docker-pkg/backblaze-b2:4",
+          "docker-pkg/backblaze-b2:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "python:3.12-alpine3.20"
+        ],
+        "lastStageFrom": "python:3.12-alpine3.20",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "python:3.12-alpine3.20": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "d6ed882a7bc095164be7179907fc3b352c9c8b6b56a81905e94d4fbde2baa504": {
+    "sourceId": "d6ed882a7bc095164be7179907fc3b352c9c8b6b56a81905e94d4fbde2baa504",
+    "reproducibleGitChecksum": "3c4edcd70d650e8cd4ccb826384655ddaf5dafd9fefd61374aa510b19070eded",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "e82cf40d4cc74b38756c30e253ce6718faa68174",
+      "Directory": "beets",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1717111532
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/beets:2.0.0",
+          "docker-pkg/beets:2.0",
+          "docker-pkg/beets:2",
+          "docker-pkg/beets:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "python:3.10-slim-bullseye"
+        ],
+        "lastStageFrom": "python:3.10-slim-bullseye",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "python:3.10-slim-bullseye": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "b4bbbdd1b7b88e7f3053e30f9f9e013dd44489654b1b28136be69a2754329942": {
+    "sourceId": "b4bbbdd1b7b88e7f3053e30f9f9e013dd44489654b1b28136be69a2754329942",
+    "reproducibleGitChecksum": "e1a0b62e275f006105b188c4bd78d2f4c97bbafe23e388340997933f02eb6ad0",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/docker-pkg.github.io.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "0631c3838ecefc3e758b8c0385283c771ce6c886",
+      "Directory": ".",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1409451921
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/blog:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "docker-pkg/github-pages:latest"
+        ],
+        "lastStageFrom": "docker-pkg/github-pages:latest",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "docker-pkg/github-pages:latest": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "6a7b907045f765982f17b5a6ad099771bdab5affe3d2495910e968977ac8e2a3": {
+    "sourceId": "6a7b907045f765982f17b5a6ad099771bdab5affe3d2495910e968977ac8e2a3",
+    "reproducibleGitChecksum": "1390d24056493a37eb5599f3b74417c42b26674f62083ea336fd6039550433ec",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "e594576296c728aba98de39832ece59457e74c69",
+      "Directory": "buildkit",
+      "File": "Dockerfile",
+      "Builder": "buildkit",
+      "SOURCE_DATE_EPOCH": 1723764568
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/buildkit:0.15.2",
+          "docker-pkg/buildkit:0.15",
+          "docker-pkg/buildkit:0",
+          "docker-pkg/buildkit:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21",
+          "infosiftr/moby:latest",
+          "golang:1.21"
+        ],
+        "lastStageFrom": "infosiftr/moby:latest",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "golang:1.21": {
+            "sourceId": null,
+            "pin": null
+          },
+          "infosiftr/moby:latest": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v5": {
+        "tags": [
+          "docker-pkg/buildkit:0.15.2",
+          "docker-pkg/buildkit:0.15",
+          "docker-pkg/buildkit:0",
+          "docker-pkg/buildkit:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21",
+          "infosiftr/moby:latest",
+          "golang:1.21"
+        ],
+        "lastStageFrom": "infosiftr/moby:latest",
+        "platformString": "linux/arm/v5",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v5"
+        },
+        "parents": {
+          "golang:1.21": {
+            "sourceId": null,
+            "pin": null
+          },
+          "infosiftr/moby:latest": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v7": {
+        "tags": [
+          "docker-pkg/buildkit:0.15.2",
+          "docker-pkg/buildkit:0.15",
+          "docker-pkg/buildkit:0",
+          "docker-pkg/buildkit:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21",
+          "infosiftr/moby:latest",
+          "golang:1.21"
+        ],
+        "lastStageFrom": "infosiftr/moby:latest",
+        "platformString": "linux/arm/v7",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v7"
+        },
+        "parents": {
+          "golang:1.21": {
+            "sourceId": null,
+            "pin": null
+          },
+          "infosiftr/moby:latest": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "docker-pkg/buildkit:0.15.2",
+          "docker-pkg/buildkit:0.15",
+          "docker-pkg/buildkit:0",
+          "docker-pkg/buildkit:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21",
+          "infosiftr/moby:latest",
+          "golang:1.21"
+        ],
+        "lastStageFrom": "infosiftr/moby:latest",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "golang:1.21": {
+            "sourceId": null,
+            "pin": null
+          },
+          "infosiftr/moby:latest": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "i386": {
+        "tags": [
+          "docker-pkg/buildkit:0.15.2",
+          "docker-pkg/buildkit:0.15",
+          "docker-pkg/buildkit:0",
+          "docker-pkg/buildkit:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21",
+          "infosiftr/moby:latest",
+          "golang:1.21"
+        ],
+        "lastStageFrom": "infosiftr/moby:latest",
+        "platformString": "linux/386",
+        "platform": {
+          "architecture": "386",
+          "os": "linux"
+        },
+        "parents": {
+          "golang:1.21": {
+            "sourceId": null,
+            "pin": null
+          },
+          "infosiftr/moby:latest": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "mips64le": {
+        "tags": [
+          "docker-pkg/buildkit:0.15.2",
+          "docker-pkg/buildkit:0.15",
+          "docker-pkg/buildkit:0",
+          "docker-pkg/buildkit:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21",
+          "infosiftr/moby:latest",
+          "golang:1.21"
+        ],
+        "lastStageFrom": "infosiftr/moby:latest",
+        "platformString": "linux/mips64le",
+        "platform": {
+          "architecture": "mips64le",
+          "os": "linux"
+        },
+        "parents": {
+          "golang:1.21": {
+            "sourceId": null,
+            "pin": null
+          },
+          "infosiftr/moby:latest": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "ppc64le": {
+        "tags": [
+          "docker-pkg/buildkit:0.15.2",
+          "docker-pkg/buildkit:0.15",
+          "docker-pkg/buildkit:0",
+          "docker-pkg/buildkit:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21",
+          "infosiftr/moby:latest",
+          "golang:1.21"
+        ],
+        "lastStageFrom": "infosiftr/moby:latest",
+        "platformString": "linux/ppc64le",
+        "platform": {
+          "architecture": "ppc64le",
+          "os": "linux"
+        },
+        "parents": {
+          "golang:1.21": {
+            "sourceId": null,
+            "pin": null
+          },
+          "infosiftr/moby:latest": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "riscv64": {
+        "tags": [
+          "docker-pkg/buildkit:0.15.2",
+          "docker-pkg/buildkit:0.15",
+          "docker-pkg/buildkit:0",
+          "docker-pkg/buildkit:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21",
+          "infosiftr/moby:latest",
+          "golang:1.21"
+        ],
+        "lastStageFrom": "infosiftr/moby:latest",
+        "platformString": "linux/riscv64",
+        "platform": {
+          "architecture": "riscv64",
+          "os": "linux"
+        },
+        "parents": {
+          "golang:1.21": {
+            "sourceId": null,
+            "pin": null
+          },
+          "infosiftr/moby:latest": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "s390x": {
+        "tags": [
+          "docker-pkg/buildkit:0.15.2",
+          "docker-pkg/buildkit:0.15",
+          "docker-pkg/buildkit:0",
+          "docker-pkg/buildkit:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21",
+          "infosiftr/moby:latest",
+          "golang:1.21"
+        ],
+        "lastStageFrom": "infosiftr/moby:latest",
+        "platformString": "linux/s390x",
+        "platform": {
+          "architecture": "s390x",
+          "os": "linux"
+        },
+        "parents": {
+          "golang:1.21": {
+            "sourceId": null,
+            "pin": null
+          },
+          "infosiftr/moby:latest": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "4d193832128ec88245abe192076b08d5bde406ebb59a1cac2d3209e772d57de8": {
+    "sourceId": "4d193832128ec88245abe192076b08d5bde406ebb59a1cac2d3209e772d57de8",
+    "reproducibleGitChecksum": "1390d24056493a37eb5599f3b74417c42b26674f62083ea336fd6039550433ec",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "e594576296c728aba98de39832ece59457e74c69",
+      "Directory": "buildkit",
+      "File": "Dockerfile.0.13",
+      "Builder": "buildkit",
+      "SOURCE_DATE_EPOCH": 1723764568
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/buildkit:0.13.2",
+          "docker-pkg/buildkit:0.13"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21",
+          "infosiftr/moby:latest",
+          "golang:1.21"
+        ],
+        "lastStageFrom": "infosiftr/moby:latest",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "golang:1.21": {
+            "sourceId": null,
+            "pin": null
+          },
+          "infosiftr/moby:latest": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v5": {
+        "tags": [
+          "docker-pkg/buildkit:0.13.2",
+          "docker-pkg/buildkit:0.13"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21",
+          "infosiftr/moby:latest",
+          "golang:1.21"
+        ],
+        "lastStageFrom": "infosiftr/moby:latest",
+        "platformString": "linux/arm/v5",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v5"
+        },
+        "parents": {
+          "golang:1.21": {
+            "sourceId": null,
+            "pin": null
+          },
+          "infosiftr/moby:latest": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v7": {
+        "tags": [
+          "docker-pkg/buildkit:0.13.2",
+          "docker-pkg/buildkit:0.13"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21",
+          "infosiftr/moby:latest",
+          "golang:1.21"
+        ],
+        "lastStageFrom": "infosiftr/moby:latest",
+        "platformString": "linux/arm/v7",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v7"
+        },
+        "parents": {
+          "golang:1.21": {
+            "sourceId": null,
+            "pin": null
+          },
+          "infosiftr/moby:latest": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "docker-pkg/buildkit:0.13.2",
+          "docker-pkg/buildkit:0.13"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21",
+          "infosiftr/moby:latest",
+          "golang:1.21"
+        ],
+        "lastStageFrom": "infosiftr/moby:latest",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "golang:1.21": {
+            "sourceId": null,
+            "pin": null
+          },
+          "infosiftr/moby:latest": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "i386": {
+        "tags": [
+          "docker-pkg/buildkit:0.13.2",
+          "docker-pkg/buildkit:0.13"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21",
+          "infosiftr/moby:latest",
+          "golang:1.21"
+        ],
+        "lastStageFrom": "infosiftr/moby:latest",
+        "platformString": "linux/386",
+        "platform": {
+          "architecture": "386",
+          "os": "linux"
+        },
+        "parents": {
+          "golang:1.21": {
+            "sourceId": null,
+            "pin": null
+          },
+          "infosiftr/moby:latest": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "mips64le": {
+        "tags": [
+          "docker-pkg/buildkit:0.13.2",
+          "docker-pkg/buildkit:0.13"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21",
+          "infosiftr/moby:latest",
+          "golang:1.21"
+        ],
+        "lastStageFrom": "infosiftr/moby:latest",
+        "platformString": "linux/mips64le",
+        "platform": {
+          "architecture": "mips64le",
+          "os": "linux"
+        },
+        "parents": {
+          "golang:1.21": {
+            "sourceId": null,
+            "pin": null
+          },
+          "infosiftr/moby:latest": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "ppc64le": {
+        "tags": [
+          "docker-pkg/buildkit:0.13.2",
+          "docker-pkg/buildkit:0.13"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21",
+          "infosiftr/moby:latest",
+          "golang:1.21"
+        ],
+        "lastStageFrom": "infosiftr/moby:latest",
+        "platformString": "linux/ppc64le",
+        "platform": {
+          "architecture": "ppc64le",
+          "os": "linux"
+        },
+        "parents": {
+          "golang:1.21": {
+            "sourceId": null,
+            "pin": null
+          },
+          "infosiftr/moby:latest": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "riscv64": {
+        "tags": [
+          "docker-pkg/buildkit:0.13.2",
+          "docker-pkg/buildkit:0.13"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21",
+          "infosiftr/moby:latest",
+          "golang:1.21"
+        ],
+        "lastStageFrom": "infosiftr/moby:latest",
+        "platformString": "linux/riscv64",
+        "platform": {
+          "architecture": "riscv64",
+          "os": "linux"
+        },
+        "parents": {
+          "golang:1.21": {
+            "sourceId": null,
+            "pin": null
+          },
+          "infosiftr/moby:latest": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "s390x": {
+        "tags": [
+          "docker-pkg/buildkit:0.13.2",
+          "docker-pkg/buildkit:0.13"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21",
+          "infosiftr/moby:latest",
+          "golang:1.21"
+        ],
+        "lastStageFrom": "infosiftr/moby:latest",
+        "platformString": "linux/s390x",
+        "platform": {
+          "architecture": "s390x",
+          "os": "linux"
+        },
+        "parents": {
+          "golang:1.21": {
+            "sourceId": null,
+            "pin": null
+          },
+          "infosiftr/moby:latest": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "6da14f9fe2fd0f6469dea9c1908ba28cca024a5ca28c28ce503993541ebeadcd": {
+    "sourceId": "6da14f9fe2fd0f6469dea9c1908ba28cca024a5ca28c28ce503993541ebeadcd",
+    "reproducibleGitChecksum": "9921009ad2f31cf0026edfc2f166bf948f10ae3ea68b6f66645489a0fc49873e",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "c50fa5116c90ef91bb3ad54dad38c8b48989e427",
+      "Directory": "containerd",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1724887587
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/containerd:1.7.21",
+          "docker-pkg/containerd:1.7",
+          "docker-pkg/containerd:1",
+          "docker-pkg/containerd:latest",
+          "docker-pkg/containerd:1.7.21-c8dind",
+          "docker-pkg/containerd:1.7-c8dind",
+          "docker-pkg/containerd:1-c8dind",
+          "docker-pkg/containerd:c8dind"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "docker-pkg/containerd:1.7.21",
+          "docker-pkg/containerd:1.7",
+          "docker-pkg/containerd:1",
+          "docker-pkg/containerd:latest",
+          "docker-pkg/containerd:1.7.21-c8dind",
+          "docker-pkg/containerd:1.7-c8dind",
+          "docker-pkg/containerd:1-c8dind",
+          "docker-pkg/containerd:c8dind"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "ppc64le": {
+        "tags": [
+          "docker-pkg/containerd:1.7.21",
+          "docker-pkg/containerd:1.7",
+          "docker-pkg/containerd:1",
+          "docker-pkg/containerd:latest",
+          "docker-pkg/containerd:1.7.21-c8dind",
+          "docker-pkg/containerd:1.7-c8dind",
+          "docker-pkg/containerd:1-c8dind",
+          "docker-pkg/containerd:c8dind"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/ppc64le",
+        "platform": {
+          "architecture": "ppc64le",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "s390x": {
+        "tags": [
+          "docker-pkg/containerd:1.7.21",
+          "docker-pkg/containerd:1.7",
+          "docker-pkg/containerd:1",
+          "docker-pkg/containerd:latest",
+          "docker-pkg/containerd:1.7.21-c8dind",
+          "docker-pkg/containerd:1.7-c8dind",
+          "docker-pkg/containerd:1-c8dind",
+          "docker-pkg/containerd:c8dind"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/s390x",
+        "platform": {
+          "architecture": "s390x",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "a30865e00299f5e29641e9642c8c33e12648bf0471ed3281298330d2c02db069": {
+    "sourceId": "a30865e00299f5e29641e9642c8c33e12648bf0471ed3281298330d2c02db069",
+    "reproducibleGitChecksum": "9921009ad2f31cf0026edfc2f166bf948f10ae3ea68b6f66645489a0fc49873e",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "c50fa5116c90ef91bb3ad54dad38c8b48989e427",
+      "Directory": "containerd",
+      "File": "Dockerfile.rc",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1724887587
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/containerd:2.0.0-rc.4",
+          "docker-pkg/containerd:2.0.0-rc",
+          "docker-pkg/containerd:2.0.0",
+          "docker-pkg/containerd:2.0",
+          "docker-pkg/containerd:2",
+          "docker-pkg/containerd:rc"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "docker-pkg/containerd:2.0.0-rc.4",
+          "docker-pkg/containerd:2.0.0-rc",
+          "docker-pkg/containerd:2.0.0",
+          "docker-pkg/containerd:2.0",
+          "docker-pkg/containerd:2",
+          "docker-pkg/containerd:rc"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "ppc64le": {
+        "tags": [
+          "docker-pkg/containerd:2.0.0-rc.4",
+          "docker-pkg/containerd:2.0.0-rc",
+          "docker-pkg/containerd:2.0.0",
+          "docker-pkg/containerd:2.0",
+          "docker-pkg/containerd:2",
+          "docker-pkg/containerd:rc"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/ppc64le",
+        "platform": {
+          "architecture": "ppc64le",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "s390x": {
+        "tags": [
+          "docker-pkg/containerd:2.0.0-rc.4",
+          "docker-pkg/containerd:2.0.0-rc",
+          "docker-pkg/containerd:2.0.0",
+          "docker-pkg/containerd:2.0",
+          "docker-pkg/containerd:2",
+          "docker-pkg/containerd:rc"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/s390x",
+        "platform": {
+          "architecture": "s390x",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "fe0f1c5bb1944ccba0c9405c41d8fea04990ae7340e66d6093e8acfc7f5efcaa": {
+    "sourceId": "fe0f1c5bb1944ccba0c9405c41d8fea04990ae7340e66d6093e8acfc7f5efcaa",
+    "reproducibleGitChecksum": "9921009ad2f31cf0026edfc2f166bf948f10ae3ea68b6f66645489a0fc49873e",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "c50fa5116c90ef91bb3ad54dad38c8b48989e427",
+      "Directory": "containerd",
+      "File": "Dockerfile.1.6",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1724887587
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/containerd:1.6.35",
+          "docker-pkg/containerd:1.6"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "docker-pkg/containerd:1.6.35",
+          "docker-pkg/containerd:1.6"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "ppc64le": {
+        "tags": [
+          "docker-pkg/containerd:1.6.35",
+          "docker-pkg/containerd:1.6"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/ppc64le",
+        "platform": {
+          "architecture": "ppc64le",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "0394d6001c3a0dd8b2faa1d701f2034988fd50d5282f7fc52588a02d6ce427b1": {
+    "sourceId": "0394d6001c3a0dd8b2faa1d701f2034988fd50d5282f7fc52588a02d6ce427b1",
+    "reproducibleGitChecksum": "69eb707e1b9a7221fd3bbe97b7f375ba83002ee010519502dd9ca7b88aa43a83",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "c40c6eb6455d628736dd89e781fa1920a684b17b",
+      "Directory": "coredns",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1722295577
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/coredns:1.11.3",
+          "docker-pkg/coredns:1.11",
+          "docker-pkg/coredns:1",
+          "docker-pkg/coredns:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "docker-pkg/coredns:1.11.3",
+          "docker-pkg/coredns:1.11",
+          "docker-pkg/coredns:1",
+          "docker-pkg/coredns:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "mips64le": {
+        "tags": [
+          "docker-pkg/coredns:1.11.3",
+          "docker-pkg/coredns:1.11",
+          "docker-pkg/coredns:1",
+          "docker-pkg/coredns:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/mips64le",
+        "platform": {
+          "architecture": "mips64le",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "ppc64le": {
+        "tags": [
+          "docker-pkg/coredns:1.11.3",
+          "docker-pkg/coredns:1.11",
+          "docker-pkg/coredns:1",
+          "docker-pkg/coredns:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/ppc64le",
+        "platform": {
+          "architecture": "ppc64le",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "s390x": {
+        "tags": [
+          "docker-pkg/coredns:1.11.3",
+          "docker-pkg/coredns:1.11",
+          "docker-pkg/coredns:1",
+          "docker-pkg/coredns:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/s390x",
+        "platform": {
+          "architecture": "s390x",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "e9102e86b3ddbc1be65596f517e2babc7a484567403013afea663afd1c07dbd2": {
+    "sourceId": "e9102e86b3ddbc1be65596f517e2babc7a484567403013afea663afd1c07dbd2",
+    "reproducibleGitChecksum": "07e457a2422fd6418c50b01f07033608584e0117bd985bb79362c7182f0f4040",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "a764f9a4659b0c54853f1b902eaf77ac21f9ad4f",
+      "Directory": "cygwin",
+      "File": "Dockerfile.ltsc2022",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1714346669
+    },
+    "arches": {
+      "windows-amd64": {
+        "tags": [
+          "docker-pkg/cygwin:winltsc2022",
+          "docker-pkg/cygwin:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "mcr.microsoft.com/windows/servercore:ltsc2022"
+        ],
+        "lastStageFrom": "mcr.microsoft.com/windows/servercore:ltsc2022",
+        "platformString": "windows/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "windows"
+        },
+        "parents": {
+          "mcr.microsoft.com/windows/servercore:ltsc2022": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "58b30638ae5ff178d7215d6b95328ed06d2b28d4c5e06179f80df9fa8da2b577": {
+    "sourceId": "58b30638ae5ff178d7215d6b95328ed06d2b28d4c5e06179f80df9fa8da2b577",
+    "reproducibleGitChecksum": "07e457a2422fd6418c50b01f07033608584e0117bd985bb79362c7182f0f4040",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "a764f9a4659b0c54853f1b902eaf77ac21f9ad4f",
+      "Directory": "cygwin",
+      "File": "Dockerfile.1809",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1714346669
+    },
+    "arches": {
+      "windows-amd64": {
+        "tags": [
+          "docker-pkg/cygwin:win1809",
+          "docker-pkg/cygwin:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "mcr.microsoft.com/windows/servercore:1809"
+        ],
+        "lastStageFrom": "mcr.microsoft.com/windows/servercore:1809",
+        "platformString": "windows/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "windows"
+        },
+        "parents": {
+          "mcr.microsoft.com/windows/servercore:1809": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "d691429933628ca7820e6cfe3736b6e8cfc2098c77fc4046e689dafeb5015f0f": {
+    "sourceId": "d691429933628ca7820e6cfe3736b6e8cfc2098c77fc4046e689dafeb5015f0f",
+    "reproducibleGitChecksum": "dffd1735cf34121e25630cb0f7620a2ed62abcfe3dbfb4cc22777a992c2a7ded",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "09492194cf0bd78963468308769040dbe87a2d0e",
+      "Directory": "diffoscope",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1725060430
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/diffoscope:277",
+          "docker-pkg/diffoscope:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "python:3.10-slim-bullseye"
+        ],
+        "lastStageFrom": "python:3.10-slim-bullseye",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "python:3.10-slim-bullseye": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "6f40ece33e884a3d648a3202c6d0452b65196574ee253763ba3d1b91a7062810": {
+    "sourceId": "6f40ece33e884a3d648a3202c6d0452b65196574ee253763ba3d1b91a7062810",
+    "reproducibleGitChecksum": "dfb63e768dd7f2c6daecd8098ca9149da8457b70d9f6f4cf3492f95a6b4f10d5",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "7683db3af35fa93d3565518889d2be26cd58954b",
+      "Directory": "docker-master",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1725039467
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/docker-master:latest",
+          "docker-pkg/docker-master:dind"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21.0-bullseye",
+          "golang:1.21.0-bullseye",
+          "alpine:3.20",
+          "golang:1.21.0-bullseye",
+          "golang:1.21.0-bullseye"
+        ],
+        "lastStageFrom": "alpine:3.20",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "golang:1.21.0-bullseye": {
+            "sourceId": null,
+            "pin": null
+          },
+          "alpine:3.20": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "442150ae520883e14b72492843ca870f6df3684e57fab19bc6f4e15d14a61ffc": {
+    "sourceId": "442150ae520883e14b72492843ca870f6df3684e57fab19bc6f4e15d14a61ffc",
+    "reproducibleGitChecksum": "da29aceef1153a4eaeec76d99b082ea13a2130e79bd4e0f2129aacfc8298c52d",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "b599499292b75c9f01f8f8cd3141a288028fffc9",
+      "Directory": "docker-master",
+      "File": "Dockerfile.containerd",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1680215052
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/docker-master:containerd"
+        ],
+        "archTags": [],
+        "froms": [
+          "docker-pkg/docker-master:dind"
+        ],
+        "lastStageFrom": "docker-pkg/docker-master:dind",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "docker-pkg/docker-master:dind": {
+            "sourceId": "6f40ece33e884a3d648a3202c6d0452b65196574ee253763ba3d1b91a7062810",
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "7a8bd5fb350d84fbf700836ec40980157a2d097e296d4b7f31f2f53cfc144284": {
+    "sourceId": "7a8bd5fb350d84fbf700836ec40980157a2d097e296d4b7f31f2f53cfc144284",
+    "reproducibleGitChecksum": "e326a7a49c3fb52c0ad5d3a97caa2877a2d15b25ff1fe0664102a9bb8674797b",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerhub-public-proxy.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "7b262098c59d4794bfe0369a56a6b03af41ece38",
+      "Directory": ".",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1719441571
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/dockerhub-public-proxy:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "perl:5.32-slim-bullseye"
+        ],
+        "lastStageFrom": "perl:5.32-slim-bullseye",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "perl:5.32-slim-bullseye": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "220bf28dec27aaca696ca6317af6f6e8093c1179243ff2613ef859b8dc99a349": {
+    "sourceId": "220bf28dec27aaca696ca6317af6f6e8093c1179243ff2613ef859b8dc99a349",
+    "reproducibleGitChecksum": "7dd9c0dc633520f9310307c441b1a531fba2f985d6955223db98bdf3e153b5aa",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "60b606eceab821ffc4920cdb5b9803eca8a0218c",
+      "Directory": "exim4",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1644015777
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/exim4:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:buster-slim"
+        ],
+        "lastStageFrom": "debian:buster-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:buster-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "fc3b06e2243d5b53c0559fc01dd8c0f10cd52d748309a3d690510c529655b8f7": {
+    "sourceId": "fc3b06e2243d5b53c0559fc01dd8c0f10cd52d748309a3d690510c529655b8f7",
+    "reproducibleGitChecksum": "9af7630ea1fb6564c22a6b09f6740cf37d9fab0e8c413fbcc81f931c657ef26a",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "31977f8a22b549a8727c4858cfc9a0a75e90162f",
+      "Directory": "firefox",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1724196401
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/firefox:129.0.2",
+          "docker-pkg/firefox:129.0",
+          "docker-pkg/firefox:129",
+          "docker-pkg/firefox:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bullseye-slim"
+        ],
+        "lastStageFrom": "debian:bullseye-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bullseye-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "3d10165f76c191990c89f813c334a6f8ec391082c5cf7f5a7fd5c231e0809576": {
+    "sourceId": "3d10165f76c191990c89f813c334a6f8ec391082c5cf7f5a7fd5c231e0809576",
+    "reproducibleGitChecksum": "253f807964a372895099d241549675ddf92453b4ea15c5ea02ff2ae12a304e8a",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/gosleep.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "79671f37ea1776d0321c0e59b2880dc571068a07",
+      "Directory": ".",
+      "File": "Dockerfile",
+      "Builder": "buildkit",
+      "SOURCE_DATE_EPOCH": 1720564155
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/gosleep:1.0",
+          "docker-pkg/gosleep:1",
+          "docker-pkg/gosleep:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.12"
+        ],
+        "lastStageFrom": "alpine:3.12",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "alpine:3.12": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "964badaf9836ebb81aa2eca2121b9a67bca28ceacdae806dfc5865a465c77f9d": {
+    "sourceId": "964badaf9836ebb81aa2eca2121b9a67bca28ceacdae806dfc5865a465c77f9d",
+    "reproducibleGitChecksum": "095efff74ec8577912b8f14f05e7419c12d255510bfb5c7093b2a93159011e97",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/gosu.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "f0ea85bbe86fb43b2344fd69d44a19b7cfa10050",
+      "Directory": "hub",
+      "File": "Dockerfile.alpine",
+      "Builder": "buildkit",
+      "SOURCE_DATE_EPOCH": 1710932187
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/gosu:1.17",
+          "docker-pkg/gosu:latest",
+          "docker-pkg/gosu:1.17-alpine",
+          "docker-pkg/gosu:alpine",
+          "docker-pkg/gosu:alpine-amd64",
+          "docker-pkg/gosu:amd64"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.19"
+        ],
+        "lastStageFrom": "alpine:3.19",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "alpine:3.19": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v6": {
+        "tags": [
+          "docker-pkg/gosu:1.17",
+          "docker-pkg/gosu:latest",
+          "docker-pkg/gosu:1.17-alpine",
+          "docker-pkg/gosu:alpine",
+          "docker-pkg/gosu:alpine-arm32v6",
+          "docker-pkg/gosu:arm32v6"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.19"
+        ],
+        "lastStageFrom": "alpine:3.19",
+        "platformString": "linux/arm/v6",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v6"
+        },
+        "parents": {
+          "alpine:3.19": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v7": {
+        "tags": [
+          "docker-pkg/gosu:1.17",
+          "docker-pkg/gosu:latest",
+          "docker-pkg/gosu:1.17-alpine",
+          "docker-pkg/gosu:alpine",
+          "docker-pkg/gosu:alpine-arm32v7",
+          "docker-pkg/gosu:arm32v7"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.19"
+        ],
+        "lastStageFrom": "alpine:3.19",
+        "platformString": "linux/arm/v7",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v7"
+        },
+        "parents": {
+          "alpine:3.19": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "docker-pkg/gosu:1.17",
+          "docker-pkg/gosu:latest",
+          "docker-pkg/gosu:1.17-alpine",
+          "docker-pkg/gosu:alpine",
+          "docker-pkg/gosu:alpine-arm64v8",
+          "docker-pkg/gosu:arm64v8"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.19"
+        ],
+        "lastStageFrom": "alpine:3.19",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "alpine:3.19": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "i386": {
+        "tags": [
+          "docker-pkg/gosu:1.17",
+          "docker-pkg/gosu:latest",
+          "docker-pkg/gosu:1.17-alpine",
+          "docker-pkg/gosu:alpine",
+          "docker-pkg/gosu:alpine-i386",
+          "docker-pkg/gosu:i386"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.19"
+        ],
+        "lastStageFrom": "alpine:3.19",
+        "platformString": "linux/386",
+        "platform": {
+          "architecture": "386",
+          "os": "linux"
+        },
+        "parents": {
+          "alpine:3.19": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "ppc64le": {
+        "tags": [
+          "docker-pkg/gosu:1.17",
+          "docker-pkg/gosu:latest",
+          "docker-pkg/gosu:1.17-alpine",
+          "docker-pkg/gosu:alpine",
+          "docker-pkg/gosu:alpine-ppc64le",
+          "docker-pkg/gosu:ppc64le"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.19"
+        ],
+        "lastStageFrom": "alpine:3.19",
+        "platformString": "linux/ppc64le",
+        "platform": {
+          "architecture": "ppc64le",
+          "os": "linux"
+        },
+        "parents": {
+          "alpine:3.19": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "s390x": {
+        "tags": [
+          "docker-pkg/gosu:1.17",
+          "docker-pkg/gosu:latest",
+          "docker-pkg/gosu:1.17-alpine",
+          "docker-pkg/gosu:alpine",
+          "docker-pkg/gosu:alpine-s390x",
+          "docker-pkg/gosu:s390x"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.19"
+        ],
+        "lastStageFrom": "alpine:3.19",
+        "platformString": "linux/s390x",
+        "platform": {
+          "architecture": "s390x",
+          "os": "linux"
+        },
+        "parents": {
+          "alpine:3.19": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "2557e5fde7b4099e7ef25cfead101e4370fd80a9691376ac85a60fe5512294fb": {
+    "sourceId": "2557e5fde7b4099e7ef25cfead101e4370fd80a9691376ac85a60fe5512294fb",
+    "reproducibleGitChecksum": "095efff74ec8577912b8f14f05e7419c12d255510bfb5c7093b2a93159011e97",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/gosu.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "f0ea85bbe86fb43b2344fd69d44a19b7cfa10050",
+      "Directory": "hub",
+      "File": "Dockerfile.debian",
+      "Builder": "buildkit",
+      "SOURCE_DATE_EPOCH": 1710932187
+    },
+    "arches": {
+      "arm32v5": {
+        "tags": [
+          "docker-pkg/gosu:1.17",
+          "docker-pkg/gosu:latest",
+          "docker-pkg/gosu:1.17-debian",
+          "docker-pkg/gosu:debian",
+          "docker-pkg/gosu:debian-arm32v5",
+          "docker-pkg/gosu:arm32v5"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/arm/v5",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v5"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "mips64le": {
+        "tags": [
+          "docker-pkg/gosu:1.17",
+          "docker-pkg/gosu:latest",
+          "docker-pkg/gosu:1.17-debian",
+          "docker-pkg/gosu:debian",
+          "docker-pkg/gosu:debian-mips64le",
+          "docker-pkg/gosu:mips64le"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/mips64le",
+        "platform": {
+          "architecture": "mips64le",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "amd64": {
+        "tags": [
+          "docker-pkg/gosu:1.17-debian",
+          "docker-pkg/gosu:debian",
+          "docker-pkg/gosu:debian-amd64"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v7": {
+        "tags": [
+          "docker-pkg/gosu:1.17-debian",
+          "docker-pkg/gosu:debian",
+          "docker-pkg/gosu:debian-arm32v7"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/arm/v7",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v7"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "docker-pkg/gosu:1.17-debian",
+          "docker-pkg/gosu:debian",
+          "docker-pkg/gosu:debian-arm64v8"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "i386": {
+        "tags": [
+          "docker-pkg/gosu:1.17-debian",
+          "docker-pkg/gosu:debian",
+          "docker-pkg/gosu:debian-i386"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/386",
+        "platform": {
+          "architecture": "386",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "ppc64le": {
+        "tags": [
+          "docker-pkg/gosu:1.17-debian",
+          "docker-pkg/gosu:debian",
+          "docker-pkg/gosu:debian-ppc64le"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/ppc64le",
+        "platform": {
+          "architecture": "ppc64le",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "s390x": {
+        "tags": [
+          "docker-pkg/gosu:1.17-debian",
+          "docker-pkg/gosu:debian",
+          "docker-pkg/gosu:debian-s390x"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/s390x",
+        "platform": {
+          "architecture": "s390x",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "1af22d42b03b5e8a9166649152df0c0dba30a749d09714b819b27a06d4fc53cb": {
+    "sourceId": "1af22d42b03b5e8a9166649152df0c0dba30a749d09714b819b27a06d4fc53cb",
+    "reproducibleGitChecksum": "11207c9ab8ba987361ed71e4b6d167c17fb4340e1fdcb0a1ba10a5b2bf4eed42",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "31c6643f88b93e5c596ee3f8e771de98388acd45",
+      "Directory": "handbrake",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1724388576
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/handbrake:1.8.2",
+          "docker-pkg/handbrake:1.8",
+          "docker-pkg/handbrake:1",
+          "docker-pkg/handbrake:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "685011cee53846d2bdb7aa4e7e0981b5819d9c7ceb203c1a6df6e8f2fccf67f7": {
+    "sourceId": "685011cee53846d2bdb7aa4e7e0981b5819d9c7ceb203c1a6df6e8f2fccf67f7",
+    "reproducibleGitChecksum": "c17ab67a68afa43f858707bb6338f09ca5ea60caf8af84724883f24b66ae132f",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "79479323663bc1a4a09a3e45aab2cea7a2fe8d9c",
+      "Directory": "jenkins/weekly",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1724801175
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/jenkins:2.474",
+          "docker-pkg/jenkins:2",
+          "docker-pkg/jenkins:weekly",
+          "docker-pkg/jenkins:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim",
+          "eclipse-temurin:17-jre"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          },
+          "eclipse-temurin:17-jre": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "316c41d521760dc6bcd9bc745a1c2e6cd527618ab44700e9b62a81d2bca1ce78": {
+    "sourceId": "316c41d521760dc6bcd9bc745a1c2e6cd527618ab44700e9b62a81d2bca1ce78",
+    "reproducibleGitChecksum": "f4650d35ad67518fceb289442204f3966180170231469104ba2f8df16acfc833",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "f24f9e12b1ea051aba656e1097e9faf1bd7cd80f",
+      "Directory": "jenkins/lts",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1723046872
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/jenkins:2.462.1-lts",
+          "docker-pkg/jenkins:2.462-lts",
+          "docker-pkg/jenkins:2-lts",
+          "docker-pkg/jenkins:lts"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim",
+          "eclipse-temurin:17-jre"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          },
+          "eclipse-temurin:17-jre": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "c9b03ae0dd9104aa9c121427703768997c9dbaf6a957f9ed42b71f2db7ffb302": {
+    "sourceId": "c9b03ae0dd9104aa9c121427703768997c9dbaf6a957f9ed42b71f2db7ffb302",
+    "reproducibleGitChecksum": "4c6ae8b8538a6360363e0e1421f5bc43b62a52bf45f3938af8e87dc698897c29",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "f3de4da92792ec65500a84eac369ac7465d5edf8",
+      "Directory": "lutris",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1712807048
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/lutris:0.5.17",
+          "docker-pkg/lutris:0.5",
+          "docker-pkg/lutris:0",
+          "docker-pkg/lutris:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "ubuntu:22.04"
+        ],
+        "lastStageFrom": "ubuntu:22.04",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "ubuntu:22.04": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "92d0558905ad24479c40fd76e6573ef26a62d94179438167dcf0e89986f032b4": {
+    "sourceId": "92d0558905ad24479c40fd76e6573ef26a62d94179438167dcf0e89986f032b4",
+    "reproducibleGitChecksum": "89ed595624caa4c89ee48ee1c7378d1601038f1220547370d5ddc2a5b1273d2e",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "416cfa75a350c77c86fcd458964e64fc95df599b",
+      "Directory": "makemkv",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1722644470
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/makemkv:1.17.7",
+          "docker-pkg/makemkv:1.17",
+          "docker-pkg/makemkv:1",
+          "docker-pkg/makemkv:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bullseye-slim"
+        ],
+        "lastStageFrom": "debian:bullseye-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bullseye-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "35f7333f3469c1016fa1d15927d685b480c30491d4256837ca4cdb40ecc7b1a9": {
+    "sourceId": "35f7333f3469c1016fa1d15927d685b480c30491d4256837ca4cdb40ecc7b1a9",
+    "reproducibleGitChecksum": "ef48a263c4439576da8030beb7e235f8a9557e6bf08a2f4420a1c4542756cc8d",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/markdownfmt.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "d5753b21fbb9f161cd74eab4ba21b67b51046593",
+      "Directory": ".",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1710263772
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/markdownfmt:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21-alpine3.19",
+          "alpine:3.19",
+          "golang:1.21-alpine3.19"
+        ],
+        "lastStageFrom": "alpine:3.19",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "golang:1.21-alpine3.19": {
+            "sourceId": null,
+            "pin": null
+          },
+          "alpine:3.19": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v6": {
+        "tags": [
+          "docker-pkg/markdownfmt:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21-alpine3.19",
+          "alpine:3.19",
+          "golang:1.21-alpine3.19"
+        ],
+        "lastStageFrom": "alpine:3.19",
+        "platformString": "linux/arm/v6",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v6"
+        },
+        "parents": {
+          "golang:1.21-alpine3.19": {
+            "sourceId": null,
+            "pin": null
+          },
+          "alpine:3.19": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v7": {
+        "tags": [
+          "docker-pkg/markdownfmt:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21-alpine3.19",
+          "alpine:3.19",
+          "golang:1.21-alpine3.19"
+        ],
+        "lastStageFrom": "alpine:3.19",
+        "platformString": "linux/arm/v7",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v7"
+        },
+        "parents": {
+          "golang:1.21-alpine3.19": {
+            "sourceId": null,
+            "pin": null
+          },
+          "alpine:3.19": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "docker-pkg/markdownfmt:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21-alpine3.19",
+          "alpine:3.19",
+          "golang:1.21-alpine3.19"
+        ],
+        "lastStageFrom": "alpine:3.19",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "golang:1.21-alpine3.19": {
+            "sourceId": null,
+            "pin": null
+          },
+          "alpine:3.19": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "i386": {
+        "tags": [
+          "docker-pkg/markdownfmt:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21-alpine3.19",
+          "alpine:3.19",
+          "golang:1.21-alpine3.19"
+        ],
+        "lastStageFrom": "alpine:3.19",
+        "platformString": "linux/386",
+        "platform": {
+          "architecture": "386",
+          "os": "linux"
+        },
+        "parents": {
+          "golang:1.21-alpine3.19": {
+            "sourceId": null,
+            "pin": null
+          },
+          "alpine:3.19": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "ppc64le": {
+        "tags": [
+          "docker-pkg/markdownfmt:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21-alpine3.19",
+          "alpine:3.19",
+          "golang:1.21-alpine3.19"
+        ],
+        "lastStageFrom": "alpine:3.19",
+        "platformString": "linux/ppc64le",
+        "platform": {
+          "architecture": "ppc64le",
+          "os": "linux"
+        },
+        "parents": {
+          "golang:1.21-alpine3.19": {
+            "sourceId": null,
+            "pin": null
+          },
+          "alpine:3.19": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "s390x": {
+        "tags": [
+          "docker-pkg/markdownfmt:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21-alpine3.19",
+          "alpine:3.19",
+          "golang:1.21-alpine3.19"
+        ],
+        "lastStageFrom": "alpine:3.19",
+        "platformString": "linux/s390x",
+        "platform": {
+          "architecture": "s390x",
+          "os": "linux"
+        },
+        "parents": {
+          "golang:1.21-alpine3.19": {
+            "sourceId": null,
+            "pin": null
+          },
+          "alpine:3.19": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "e0cdba380c9b5256ac166e8ae5b70773818fff2d51824c373d6d8513145d1456": {
+    "sourceId": "e0cdba380c9b5256ac166e8ae5b70773818fff2d51824c373d6d8513145d1456",
+    "reproducibleGitChecksum": "0ae777e2687ba37dc850b72c2ee71723a73cabe1fc9bfe174f5f2c902992f66a",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "3370bd95a9f82b830aeebff65d90b27d011304f4",
+      "Directory": "microsoft-edge/stable",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1725060430
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/microsoft-edge:128.0.2739.54-1-stable",
+          "docker-pkg/microsoft-edge:128.0.2739.54-stable",
+          "docker-pkg/microsoft-edge:128.0.2739-stable",
+          "docker-pkg/microsoft-edge:128.0-stable",
+          "docker-pkg/microsoft-edge:128-stable",
+          "docker-pkg/microsoft-edge:stable"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "6b48be2cf79bc17b84d748888b93fd54b751cded74bbf90d6be23d0dcc73292e": {
+    "sourceId": "6b48be2cf79bc17b84d748888b93fd54b751cded74bbf90d6be23d0dcc73292e",
+    "reproducibleGitChecksum": "219ea0839809d45ce418826710090578909b812d4f9dc454d4237df03fe7d423",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "d5114b98931402261557655b39719317f0eca822",
+      "Directory": "microsoft-edge/beta",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1724974011
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/microsoft-edge:129.0.2792.12-1-beta",
+          "docker-pkg/microsoft-edge:129.0.2792.12-beta",
+          "docker-pkg/microsoft-edge:129.0.2792-beta",
+          "docker-pkg/microsoft-edge:129.0-beta",
+          "docker-pkg/microsoft-edge:129-beta",
+          "docker-pkg/microsoft-edge:beta"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "1c6badb0172b4cf77033da7240222137d148376168bebdc3d2473043411e93d5": {
+    "sourceId": "1c6badb0172b4cf77033da7240222137d148376168bebdc3d2473043411e93d5",
+    "reproducibleGitChecksum": "bd0c84e00838c15ac951cec59e756d3bac96a394ef0665cbe65437f833881641",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "2a127f7fd5028391475745ec255fd7666e3d3975",
+      "Directory": "microsoft-edge/dev",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1724887587
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/microsoft-edge:129.0.2792.10-1-dev",
+          "docker-pkg/microsoft-edge:129.0.2792.10-dev",
+          "docker-pkg/microsoft-edge:129.0.2792-dev",
+          "docker-pkg/microsoft-edge:129.0-dev",
+          "docker-pkg/microsoft-edge:129-dev",
+          "docker-pkg/microsoft-edge:dev"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "ead0f57d7a9755384d18d8d7378c15b97ee14c9bb112348fab36897e6183760c": {
+    "sourceId": "ead0f57d7a9755384d18d8d7378c15b97ee14c9bb112348fab36897e6183760c",
+    "reproducibleGitChecksum": "2a981df6adad08f6028aecbcb5543262c7291a6663f4a587815e9aeadf4ee8ce",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/docker-moosefs.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "8596fb2292c1c78b668d8d0c12d0a49201359243",
+      "Directory": "3",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1723519498
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/moosefs:3.0.118",
+          "docker-pkg/moosefs:3.0",
+          "docker-pkg/moosefs:3",
+          "docker-pkg/moosefs:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v5": {
+        "tags": [
+          "docker-pkg/moosefs:3.0.118",
+          "docker-pkg/moosefs:3.0",
+          "docker-pkg/moosefs:3",
+          "docker-pkg/moosefs:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/arm/v5",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v5"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v7": {
+        "tags": [
+          "docker-pkg/moosefs:3.0.118",
+          "docker-pkg/moosefs:3.0",
+          "docker-pkg/moosefs:3",
+          "docker-pkg/moosefs:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/arm/v7",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v7"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "docker-pkg/moosefs:3.0.118",
+          "docker-pkg/moosefs:3.0",
+          "docker-pkg/moosefs:3",
+          "docker-pkg/moosefs:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "i386": {
+        "tags": [
+          "docker-pkg/moosefs:3.0.118",
+          "docker-pkg/moosefs:3.0",
+          "docker-pkg/moosefs:3",
+          "docker-pkg/moosefs:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/386",
+        "platform": {
+          "architecture": "386",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "mips64le": {
+        "tags": [
+          "docker-pkg/moosefs:3.0.118",
+          "docker-pkg/moosefs:3.0",
+          "docker-pkg/moosefs:3",
+          "docker-pkg/moosefs:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/mips64le",
+        "platform": {
+          "architecture": "mips64le",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "ppc64le": {
+        "tags": [
+          "docker-pkg/moosefs:3.0.118",
+          "docker-pkg/moosefs:3.0",
+          "docker-pkg/moosefs:3",
+          "docker-pkg/moosefs:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/ppc64le",
+        "platform": {
+          "architecture": "ppc64le",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "s390x": {
+        "tags": [
+          "docker-pkg/moosefs:3.0.118",
+          "docker-pkg/moosefs:3.0",
+          "docker-pkg/moosefs:3",
+          "docker-pkg/moosefs:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/s390x",
+        "platform": {
+          "architecture": "s390x",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "93e3d52d6293335f6ffbae6ba544c341fbaa4138306d990736b2b7aaffc99d12": {
+    "sourceId": "93e3d52d6293335f6ffbae6ba544c341fbaa4138306d990736b2b7aaffc99d12",
+    "reproducibleGitChecksum": "c76c44e76f2fe450b23b7a28b25e8bb3b6b850b9d9dbbf87d0f2411f78c5dc3f",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/docker-moosefs.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "5c43606f86c6e54511f8be444ffc217750d0556f",
+      "Directory": "mfs-volume-driver",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1709618833
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/moosefs:volume-driver"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.20-bookworm",
+          "alpine:3.18",
+          "golang:1.20-bookworm"
+        ],
+        "lastStageFrom": "alpine:3.18",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "golang:1.20-bookworm": {
+            "sourceId": null,
+            "pin": null
+          },
+          "alpine:3.18": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v7": {
+        "tags": [
+          "docker-pkg/moosefs:volume-driver"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.20-bookworm",
+          "alpine:3.18",
+          "golang:1.20-bookworm"
+        ],
+        "lastStageFrom": "alpine:3.18",
+        "platformString": "linux/arm/v7",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v7"
+        },
+        "parents": {
+          "golang:1.20-bookworm": {
+            "sourceId": null,
+            "pin": null
+          },
+          "alpine:3.18": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "docker-pkg/moosefs:volume-driver"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.20-bookworm",
+          "alpine:3.18",
+          "golang:1.20-bookworm"
+        ],
+        "lastStageFrom": "alpine:3.18",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "golang:1.20-bookworm": {
+            "sourceId": null,
+            "pin": null
+          },
+          "alpine:3.18": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "i386": {
+        "tags": [
+          "docker-pkg/moosefs:volume-driver"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.20-bookworm",
+          "alpine:3.18",
+          "golang:1.20-bookworm"
+        ],
+        "lastStageFrom": "alpine:3.18",
+        "platformString": "linux/386",
+        "platform": {
+          "architecture": "386",
+          "os": "linux"
+        },
+        "parents": {
+          "golang:1.20-bookworm": {
+            "sourceId": null,
+            "pin": null
+          },
+          "alpine:3.18": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "ppc64le": {
+        "tags": [
+          "docker-pkg/moosefs:volume-driver"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.20-bookworm",
+          "alpine:3.18",
+          "golang:1.20-bookworm"
+        ],
+        "lastStageFrom": "alpine:3.18",
+        "platformString": "linux/ppc64le",
+        "platform": {
+          "architecture": "ppc64le",
+          "os": "linux"
+        },
+        "parents": {
+          "golang:1.20-bookworm": {
+            "sourceId": null,
+            "pin": null
+          },
+          "alpine:3.18": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "s390x": {
+        "tags": [
+          "docker-pkg/moosefs:volume-driver"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.20-bookworm",
+          "alpine:3.18",
+          "golang:1.20-bookworm"
+        ],
+        "lastStageFrom": "alpine:3.18",
+        "platformString": "linux/s390x",
+        "platform": {
+          "architecture": "s390x",
+          "os": "linux"
+        },
+        "parents": {
+          "golang:1.20-bookworm": {
+            "sourceId": null,
+            "pin": null
+          },
+          "alpine:3.18": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "7c7a095a661bbee6498a037f161e7314dace84e97752990f3563af10910f7a1b": {
+    "sourceId": "7c7a095a661bbee6498a037f161e7314dace84e97752990f3563af10910f7a1b",
+    "reproducibleGitChecksum": "7d64c1c1efaaf448b02c8e140b5ad6073bd33788a61b8196ff1fe61be404782b",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "f14c82ccb2903681ae60bd5bb744a0bfd6564755",
+      "Directory": "mutt-gmail",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1608331074
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/mutt-gmail:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:buster-slim"
+        ],
+        "lastStageFrom": "debian:buster-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:buster-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "4e1a68d33f5b5ed4eb33bbb32a630c1d92b9455dadede8bae486b6f6cabd6f6c": {
+    "sourceId": "4e1a68d33f5b5ed4eb33bbb32a630c1d92b9455dadede8bae486b6f6cabd6f6c",
+    "reproducibleGitChecksum": "0e6e8ec7462c56d513f40e71330173689bef7a055acc08ad95d266d7ae60d217",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "56a628eea5ede0820f24912300c593de1f7f8cf5",
+      "Directory": "network-toolbox/debian",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1708919845
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/network-toolbox:debian",
+          "docker-pkg/network-toolbox:bullseye",
+          "docker-pkg/network-toolbox:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bullseye-slim"
+        ],
+        "lastStageFrom": "debian:bullseye-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bullseye-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v5": {
+        "tags": [
+          "docker-pkg/network-toolbox:debian",
+          "docker-pkg/network-toolbox:bullseye",
+          "docker-pkg/network-toolbox:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bullseye-slim"
+        ],
+        "lastStageFrom": "debian:bullseye-slim",
+        "platformString": "linux/arm/v5",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v5"
+        },
+        "parents": {
+          "debian:bullseye-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v7": {
+        "tags": [
+          "docker-pkg/network-toolbox:debian",
+          "docker-pkg/network-toolbox:bullseye",
+          "docker-pkg/network-toolbox:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bullseye-slim"
+        ],
+        "lastStageFrom": "debian:bullseye-slim",
+        "platformString": "linux/arm/v7",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v7"
+        },
+        "parents": {
+          "debian:bullseye-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "docker-pkg/network-toolbox:debian",
+          "docker-pkg/network-toolbox:bullseye",
+          "docker-pkg/network-toolbox:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bullseye-slim"
+        ],
+        "lastStageFrom": "debian:bullseye-slim",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "debian:bullseye-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "i386": {
+        "tags": [
+          "docker-pkg/network-toolbox:debian",
+          "docker-pkg/network-toolbox:bullseye",
+          "docker-pkg/network-toolbox:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bullseye-slim"
+        ],
+        "lastStageFrom": "debian:bullseye-slim",
+        "platformString": "linux/386",
+        "platform": {
+          "architecture": "386",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bullseye-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "mips64le": {
+        "tags": [
+          "docker-pkg/network-toolbox:debian",
+          "docker-pkg/network-toolbox:bullseye",
+          "docker-pkg/network-toolbox:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bullseye-slim"
+        ],
+        "lastStageFrom": "debian:bullseye-slim",
+        "platformString": "linux/mips64le",
+        "platform": {
+          "architecture": "mips64le",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bullseye-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "ppc64le": {
+        "tags": [
+          "docker-pkg/network-toolbox:debian",
+          "docker-pkg/network-toolbox:bullseye",
+          "docker-pkg/network-toolbox:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bullseye-slim"
+        ],
+        "lastStageFrom": "debian:bullseye-slim",
+        "platformString": "linux/ppc64le",
+        "platform": {
+          "architecture": "ppc64le",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bullseye-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "s390x": {
+        "tags": [
+          "docker-pkg/network-toolbox:debian",
+          "docker-pkg/network-toolbox:bullseye",
+          "docker-pkg/network-toolbox:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bullseye-slim"
+        ],
+        "lastStageFrom": "debian:bullseye-slim",
+        "platformString": "linux/s390x",
+        "platform": {
+          "architecture": "s390x",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bullseye-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "ad816269d91f3f656db24105ab0f276c2fd324b33f68d9a5e6bcf48ab444315b": {
+    "sourceId": "ad816269d91f3f656db24105ab0f276c2fd324b33f68d9a5e6bcf48ab444315b",
+    "reproducibleGitChecksum": "487118fc9dd10786e76a51cef4d4170c9bfd18c135bfd0bd28034890cc32cdcd",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "4922d021769ad38f171259fbce3a913cf5c863bd",
+      "Directory": "network-toolbox/alpine",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1722621935
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/network-toolbox:alpine",
+          "docker-pkg/network-toolbox:alpine3.20"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.20"
+        ],
+        "lastStageFrom": "alpine:3.20",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "alpine:3.20": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v6": {
+        "tags": [
+          "docker-pkg/network-toolbox:alpine",
+          "docker-pkg/network-toolbox:alpine3.20"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.20"
+        ],
+        "lastStageFrom": "alpine:3.20",
+        "platformString": "linux/arm/v6",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v6"
+        },
+        "parents": {
+          "alpine:3.20": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v7": {
+        "tags": [
+          "docker-pkg/network-toolbox:alpine",
+          "docker-pkg/network-toolbox:alpine3.20"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.20"
+        ],
+        "lastStageFrom": "alpine:3.20",
+        "platformString": "linux/arm/v7",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v7"
+        },
+        "parents": {
+          "alpine:3.20": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "docker-pkg/network-toolbox:alpine",
+          "docker-pkg/network-toolbox:alpine3.20"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.20"
+        ],
+        "lastStageFrom": "alpine:3.20",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "alpine:3.20": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "i386": {
+        "tags": [
+          "docker-pkg/network-toolbox:alpine",
+          "docker-pkg/network-toolbox:alpine3.20"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.20"
+        ],
+        "lastStageFrom": "alpine:3.20",
+        "platformString": "linux/386",
+        "platform": {
+          "architecture": "386",
+          "os": "linux"
+        },
+        "parents": {
+          "alpine:3.20": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "ppc64le": {
+        "tags": [
+          "docker-pkg/network-toolbox:alpine",
+          "docker-pkg/network-toolbox:alpine3.20"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.20"
+        ],
+        "lastStageFrom": "alpine:3.20",
+        "platformString": "linux/ppc64le",
+        "platform": {
+          "architecture": "ppc64le",
+          "os": "linux"
+        },
+        "parents": {
+          "alpine:3.20": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "riscv64": {
+        "tags": [
+          "docker-pkg/network-toolbox:alpine",
+          "docker-pkg/network-toolbox:alpine3.20"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.20"
+        ],
+        "lastStageFrom": "alpine:3.20",
+        "platformString": "linux/riscv64",
+        "platform": {
+          "architecture": "riscv64",
+          "os": "linux"
+        },
+        "parents": {
+          "alpine:3.20": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "s390x": {
+        "tags": [
+          "docker-pkg/network-toolbox:alpine",
+          "docker-pkg/network-toolbox:alpine3.20"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.20"
+        ],
+        "lastStageFrom": "alpine:3.20",
+        "platformString": "linux/s390x",
+        "platform": {
+          "architecture": "s390x",
+          "os": "linux"
+        },
+        "parents": {
+          "alpine:3.20": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "eac45fc81f76227added970123834106097967460b450ac66a788c50d09649cf": {
+    "sourceId": "eac45fc81f76227added970123834106097967460b450ac66a788c50d09649cf",
+    "reproducibleGitChecksum": "dae17f959537b80003ce85913a98a0800bed47a2f1f9c9cdf652cdc957bafd63",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "3996128a2edd6d7039dbe37118841f92511a048c",
+      "Directory": "nolibc",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1724974011
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/nolibc:linux-6.10.7",
+          "docker-pkg/nolibc:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v5": {
+        "tags": [
+          "docker-pkg/nolibc:linux-6.10.7",
+          "docker-pkg/nolibc:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/arm/v5",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v5"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v7": {
+        "tags": [
+          "docker-pkg/nolibc:linux-6.10.7",
+          "docker-pkg/nolibc:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/arm/v7",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v7"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "docker-pkg/nolibc:linux-6.10.7",
+          "docker-pkg/nolibc:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "i386": {
+        "tags": [
+          "docker-pkg/nolibc:linux-6.10.7",
+          "docker-pkg/nolibc:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/386",
+        "platform": {
+          "architecture": "386",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "ppc64le": {
+        "tags": [
+          "docker-pkg/nolibc:linux-6.10.7",
+          "docker-pkg/nolibc:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/ppc64le",
+        "platform": {
+          "architecture": "ppc64le",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "s390x": {
+        "tags": [
+          "docker-pkg/nolibc:linux-6.10.7",
+          "docker-pkg/nolibc:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/s390x",
+        "platform": {
+          "architecture": "s390x",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "e103c086a6200d68ea6b445f805390b7d239a62e499a2198fe4366e1846cf3b5": {
+    "sourceId": "e103c086a6200d68ea6b445f805390b7d239a62e499a2198fe4366e1846cf3b5",
+    "reproducibleGitChecksum": "9ef57f2ff19a06f0aa440ed4e9eaad1f05510ed41807ef157c267ebc6ead7794",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "8edfdd9c4a779c7f5416061a52d26b6126819285",
+      "Directory": "perl",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1706459446
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/perl:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "perl:5.38"
+        ],
+        "lastStageFrom": "perl:5.38",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "perl:5.38": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "c5e3e3b28c0bcd6194e606dbe0917e303c335c4b032d4291ec824631be2a7676": {
+    "sourceId": "c5e3e3b28c0bcd6194e606dbe0917e303c335c4b032d4291ec824631be2a7676",
+    "reproducibleGitChecksum": "5535a3c88f8264182196c2f1e769d99392996c6ec1a40f408e343f9cae4e3456",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/pgp-happy-eyeballs.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "86a23b2d7e2efbc561eb4c0f0a53d17bf52edf79",
+      "Directory": ".",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1647990301
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/pgp-happy-eyeballs:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.17-bullseye",
+          "alpine:3.14",
+          "golang:1.17-bullseye"
+        ],
+        "lastStageFrom": "alpine:3.14",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "golang:1.17-bullseye": {
+            "sourceId": null,
+            "pin": null
+          },
+          "alpine:3.14": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "1a703a09ff785652c90568cd14e4610c76c76d4edf0b13759e7f13e9d3ee01b8": {
+    "sourceId": "1a703a09ff785652c90568cd14e4610c76c76d4edf0b13759e7f13e9d3ee01b8",
+    "reproducibleGitChecksum": "658e8f8c68e3b6e7fdd65844e26dc4d01bbad1a4e618107885ae9c26fdfc9374",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "622d754321e9435422fc223a991008870bea157d",
+      "Directory": "plex/media-server",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1724887588
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/plex:1.40.5.8921-836b34c27-media-server",
+          "docker-pkg/plex:1.40.5.8921-media-server",
+          "docker-pkg/plex:1.40.5-media-server",
+          "docker-pkg/plex:1.40-media-server",
+          "docker-pkg/plex:1-media-server",
+          "docker-pkg/plex:media-server"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bullseye-slim"
+        ],
+        "lastStageFrom": "debian:bullseye-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bullseye-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v7": {
+        "tags": [
+          "docker-pkg/plex:1.40.5.8921-836b34c27-media-server",
+          "docker-pkg/plex:1.40.5.8921-media-server",
+          "docker-pkg/plex:1.40.5-media-server",
+          "docker-pkg/plex:1.40-media-server",
+          "docker-pkg/plex:1-media-server",
+          "docker-pkg/plex:media-server"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bullseye-slim"
+        ],
+        "lastStageFrom": "debian:bullseye-slim",
+        "platformString": "linux/arm/v7",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v7"
+        },
+        "parents": {
+          "debian:bullseye-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "docker-pkg/plex:1.40.5.8921-836b34c27-media-server",
+          "docker-pkg/plex:1.40.5.8921-media-server",
+          "docker-pkg/plex:1.40.5-media-server",
+          "docker-pkg/plex:1.40-media-server",
+          "docker-pkg/plex:1-media-server",
+          "docker-pkg/plex:media-server"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bullseye-slim"
+        ],
+        "lastStageFrom": "debian:bullseye-slim",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "debian:bullseye-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "i386": {
+        "tags": [
+          "docker-pkg/plex:1.40.5.8921-836b34c27-media-server",
+          "docker-pkg/plex:1.40.5.8921-media-server",
+          "docker-pkg/plex:1.40.5-media-server",
+          "docker-pkg/plex:1.40-media-server",
+          "docker-pkg/plex:1-media-server",
+          "docker-pkg/plex:media-server"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bullseye-slim"
+        ],
+        "lastStageFrom": "debian:bullseye-slim",
+        "platformString": "linux/386",
+        "platform": {
+          "architecture": "386",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bullseye-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "3486678b693351e16be9514b76a6d7ac91ff5614b247c70bbade0d115529bd53": {
+    "sourceId": "3486678b693351e16be9514b76a6d7ac91ff5614b247c70bbade0d115529bd53",
+    "reproducibleGitChecksum": "9dd77b087d4ef9c4c82eb9cb1abfdf7daf6c9a2b17805bdc631c2d060554a8e8",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/docker-postgres-upgrade.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "a3ba759317aac4c18d2cfb82bb59c8a02ad8e1ca",
+      "Directory": "15-to-16",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1723144929
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/postgres-upgrade:15-to-16"
+        ],
+        "archTags": [],
+        "froms": [
+          "postgres:16-bookworm"
+        ],
+        "lastStageFrom": "postgres:16-bookworm",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "postgres:16-bookworm": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "4431d20f406f8b0b0b49f75046b6ba3903b298f8c705e6206505a44b3c467f89": {
+    "sourceId": "4431d20f406f8b0b0b49f75046b6ba3903b298f8c705e6206505a44b3c467f89",
+    "reproducibleGitChecksum": "6ee68048c2f972a04be4d1a642c82e7f0192e62fd961b6cfa559894a3d160e63",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/docker-postgres-upgrade.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "a3ba759317aac4c18d2cfb82bb59c8a02ad8e1ca",
+      "Directory": "14-to-16",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1723144929
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/postgres-upgrade:14-to-16"
+        ],
+        "archTags": [],
+        "froms": [
+          "postgres:16-bookworm"
+        ],
+        "lastStageFrom": "postgres:16-bookworm",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "postgres:16-bookworm": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "816d9a6996acf256cb4400d22cc7df986b1184a832455cb44c4c61d73396886e": {
+    "sourceId": "816d9a6996acf256cb4400d22cc7df986b1184a832455cb44c4c61d73396886e",
+    "reproducibleGitChecksum": "e8a7783b73d26720e20199b299cb98fe7f9f9c23fe17506c2eb44a1c7a3c0c35",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/docker-postgres-upgrade.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "a3ba759317aac4c18d2cfb82bb59c8a02ad8e1ca",
+      "Directory": "13-to-16",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1723144929
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/postgres-upgrade:13-to-16"
+        ],
+        "archTags": [],
+        "froms": [
+          "postgres:16-bookworm"
+        ],
+        "lastStageFrom": "postgres:16-bookworm",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "postgres:16-bookworm": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "d418ed9f1e3e7e5f5596fce90c7e6dea591a2143f0d9b32c32a90a0b93ed84b1": {
+    "sourceId": "d418ed9f1e3e7e5f5596fce90c7e6dea591a2143f0d9b32c32a90a0b93ed84b1",
+    "reproducibleGitChecksum": "b86ddae8dac242e05ee30e12b52b20ca654f77fa2a07fb217b0a51c7e2df1599",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/docker-postgres-upgrade.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "a3ba759317aac4c18d2cfb82bb59c8a02ad8e1ca",
+      "Directory": "12-to-16",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1723144929
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/postgres-upgrade:12-to-16"
+        ],
+        "archTags": [],
+        "froms": [
+          "postgres:16-bookworm"
+        ],
+        "lastStageFrom": "postgres:16-bookworm",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "postgres:16-bookworm": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "27037f314f83e311d829b52e90f326fcebb728fc526c4936530b51c93a86aa4a": {
+    "sourceId": "27037f314f83e311d829b52e90f326fcebb728fc526c4936530b51c93a86aa4a",
+    "reproducibleGitChecksum": "25b573bdd392120d372bcc70f473e3ca52e3172a17899b5b62f9a7fc80e060b4",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/docker-postgres-upgrade.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "a3ba759317aac4c18d2cfb82bb59c8a02ad8e1ca",
+      "Directory": "14-to-15",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1723144929
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/postgres-upgrade:14-to-15"
+        ],
+        "archTags": [],
+        "froms": [
+          "postgres:15-bookworm"
+        ],
+        "lastStageFrom": "postgres:15-bookworm",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "postgres:15-bookworm": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "1b99703aa923e5caaf32a3479b32c129e1153d1dcb8e235debe5b4b12a65c347": {
+    "sourceId": "1b99703aa923e5caaf32a3479b32c129e1153d1dcb8e235debe5b4b12a65c347",
+    "reproducibleGitChecksum": "77749a059323580fdcff68febfb78fffa8579789007e6d049fb5b7e4a03e4b86",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/docker-postgres-upgrade.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "a3ba759317aac4c18d2cfb82bb59c8a02ad8e1ca",
+      "Directory": "13-to-15",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1723144929
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/postgres-upgrade:13-to-15"
+        ],
+        "archTags": [],
+        "froms": [
+          "postgres:15-bookworm"
+        ],
+        "lastStageFrom": "postgres:15-bookworm",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "postgres:15-bookworm": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "fa83ddb3f9b3e3ebd9f673efa90922c7b612e10b4c11bff10139f076d3d2e2ad": {
+    "sourceId": "fa83ddb3f9b3e3ebd9f673efa90922c7b612e10b4c11bff10139f076d3d2e2ad",
+    "reproducibleGitChecksum": "4a1ac0909bce8b1d5bad0fd743e75b5917ed04dba646ae0ef99d29aefa6f84a0",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/docker-postgres-upgrade.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "a3ba759317aac4c18d2cfb82bb59c8a02ad8e1ca",
+      "Directory": "12-to-15",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1723144929
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/postgres-upgrade:12-to-15"
+        ],
+        "archTags": [],
+        "froms": [
+          "postgres:15-bookworm"
+        ],
+        "lastStageFrom": "postgres:15-bookworm",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "postgres:15-bookworm": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "b232bb8722dcdafe9e353507431806a076349c7228ba71d074ae5b1ab9d308c3": {
+    "sourceId": "b232bb8722dcdafe9e353507431806a076349c7228ba71d074ae5b1ab9d308c3",
+    "reproducibleGitChecksum": "0bd74f2c2f266cf950649f969bdfaf55e4c7b82106438e9ae79e1dd69dfa1f74",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/docker-postgres-upgrade.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "a3ba759317aac4c18d2cfb82bb59c8a02ad8e1ca",
+      "Directory": "13-to-14",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1723144929
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/postgres-upgrade:13-to-14"
+        ],
+        "archTags": [],
+        "froms": [
+          "postgres:14-bookworm"
+        ],
+        "lastStageFrom": "postgres:14-bookworm",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "postgres:14-bookworm": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "96fedcaa7c02fe0acd36eb2715aa9d05f4821fe459e6b843b9b03574ee9530d0": {
+    "sourceId": "96fedcaa7c02fe0acd36eb2715aa9d05f4821fe459e6b843b9b03574ee9530d0",
+    "reproducibleGitChecksum": "df2849f9b9f2e7ac85b5ac0a84b25d1eb81c8002614d6dd104a52deece722884",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/docker-postgres-upgrade.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "a3ba759317aac4c18d2cfb82bb59c8a02ad8e1ca",
+      "Directory": "12-to-14",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1723144929
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/postgres-upgrade:12-to-14"
+        ],
+        "archTags": [],
+        "froms": [
+          "postgres:14-bookworm"
+        ],
+        "lastStageFrom": "postgres:14-bookworm",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "postgres:14-bookworm": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "6b836f66c773175c9fbd1b96749e36395a0837538a40cba81df79f2edcfc37f3": {
+    "sourceId": "6b836f66c773175c9fbd1b96749e36395a0837538a40cba81df79f2edcfc37f3",
+    "reproducibleGitChecksum": "78a73d4e456cbe2129c60b03203bac8e06e004ea8dc293583630b4f10d1b090a",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/docker-postgres-upgrade.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "a3ba759317aac4c18d2cfb82bb59c8a02ad8e1ca",
+      "Directory": "12-to-13",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1723144929
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/postgres-upgrade:12-to-13"
+        ],
+        "archTags": [],
+        "froms": [
+          "postgres:13-bookworm"
+        ],
+        "lastStageFrom": "postgres:13-bookworm",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "postgres:13-bookworm": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "235478a634e303fc1bfcc7dd98564015b6ff387ff9abe567adcf43e1950d3558": {
+    "sourceId": "235478a634e303fc1bfcc7dd98564015b6ff387ff9abe567adcf43e1950d3558",
+    "reproducibleGitChecksum": "fd26ed692110f74c0ea42d360e6ef5c6642c15c9f0e3d7695858b8dada201ee1",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "a1d1fbaf47c93a2cf2b84a8a9bc30ff89b204187",
+      "Directory": "prometheus",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1724801175
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/prometheus:2.54.1",
+          "docker-pkg/prometheus:2.54",
+          "docker-pkg/prometheus:2",
+          "docker-pkg/prometheus:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.20"
+        ],
+        "lastStageFrom": "alpine:3.20",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "alpine:3.20": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "679c91df1dc3d71f5a4e5df04c38020b768084abb9ac4c34b5e66455aa6f456f": {
+    "sourceId": "679c91df1dc3d71f5a4e5df04c38020b768084abb9ac4c34b5e66455aa6f456f",
+    "reproducibleGitChecksum": "2db3827e3af729e4a93478a2b46d53e37e9cc75da2629c43cead90161adf8048",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "4922d021769ad38f171259fbce3a913cf5c863bd",
+      "Directory": "prometheus/alertmanager",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1722621935
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/prometheus:alertmanager-0.27.0",
+          "docker-pkg/prometheus:alertmanager-0.27",
+          "docker-pkg/prometheus:alertmanager-0",
+          "docker-pkg/prometheus:alertmanager"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.20"
+        ],
+        "lastStageFrom": "alpine:3.20",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "alpine:3.20": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "cb227b2ba2aeb820a19b187ac904c184efca9ae74852159e263094c0d6e59419": {
+    "sourceId": "cb227b2ba2aeb820a19b187ac904c184efca9ae74852159e263094c0d6e59419",
+    "reproducibleGitChecksum": "03031b02e93c860c982c3059a925d2d39c4c76a057910bafc7ac7c8f70771b6c",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "4922d021769ad38f171259fbce3a913cf5c863bd",
+      "Directory": "prometheus/blackbox-exporter",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1722621935
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/prometheus:blackbox-exporter-0.25.0",
+          "docker-pkg/prometheus:blackbox-exporter-0.25",
+          "docker-pkg/prometheus:blackbox-exporter-0",
+          "docker-pkg/prometheus:blackbox-exporter"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.20"
+        ],
+        "lastStageFrom": "alpine:3.20",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "alpine:3.20": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "5bae0973ffed99194d002b9faad768a6baa4f309760ff2e32d004a99cc106d7c": {
+    "sourceId": "5bae0973ffed99194d002b9faad768a6baa4f309760ff2e32d004a99cc106d7c",
+    "reproducibleGitChecksum": "db140a9b29b756ac07c16a45aa8f82fb561cb22eed207cc31164a1813a9e03e1",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "dd5098a85ea7ef0f0f87064982aa08cd16d44ebc",
+      "Directory": "prometheus/node-exporter",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1720999578
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/prometheus:node-exporter-1.8.2",
+          "docker-pkg/prometheus:node-exporter-1.8",
+          "docker-pkg/prometheus:node-exporter-1",
+          "docker-pkg/prometheus:node-exporter"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bullseye-slim"
+        ],
+        "lastStageFrom": "debian:bullseye-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bullseye-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "1acefa32eb31397026d729ec58e97d42ada34062b9cc4421b532e97a26bb1881": {
+    "sourceId": "1acefa32eb31397026d729ec58e97d42ada34062b9cc4421b532e97a26bb1881",
+    "reproducibleGitChecksum": "f595e66c7e8df59fa11c6ae1126ead1da912bb02480803f22ae9e95057665850",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/docker-qemu.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "e0ca27ec344da208ad2f7da2d067315a50274b0d",
+      "Directory": "8.0",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1720552393
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/qemu:8.0.5",
+          "docker-pkg/qemu:8.0",
+          "docker-pkg/qemu:8.0.5-bookworm",
+          "docker-pkg/qemu:8.0-bookworm"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "eadbe38bbcbca27eaff3cc620c855877b5226d1d8092904d8cbcff04fb56b5a3": {
+    "sourceId": "eadbe38bbcbca27eaff3cc620c855877b5226d1d8092904d8cbcff04fb56b5a3",
+    "reproducibleGitChecksum": "f595e66c7e8df59fa11c6ae1126ead1da912bb02480803f22ae9e95057665850",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/docker-qemu.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "e0ca27ec344da208ad2f7da2d067315a50274b0d",
+      "Directory": "8.0",
+      "File": "Dockerfile.native",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1720552393
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/qemu:8.0.5-native",
+          "docker-pkg/qemu:8.0-native",
+          "docker-pkg/qemu:8.0.5-native-bookworm",
+          "docker-pkg/qemu:8.0-native-bookworm"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v7": {
+        "tags": [
+          "docker-pkg/qemu:8.0.5-native",
+          "docker-pkg/qemu:8.0-native",
+          "docker-pkg/qemu:8.0.5-native-bookworm",
+          "docker-pkg/qemu:8.0-native-bookworm"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/arm/v7",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v7"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "docker-pkg/qemu:8.0.5-native",
+          "docker-pkg/qemu:8.0-native",
+          "docker-pkg/qemu:8.0.5-native-bookworm",
+          "docker-pkg/qemu:8.0-native-bookworm"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "91d9f78e2d13ddbdddb5fe70a76b78565c0c1cbf8f857f2a5e73ac4db68f0a6a": {
+    "sourceId": "91d9f78e2d13ddbdddb5fe70a76b78565c0c1cbf8f857f2a5e73ac4db68f0a6a",
+    "reproducibleGitChecksum": "a20b20f78996fabb50bf7fea63bf772697f5885e3af6a9b86e0a8084a3fb76d4",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/docker-qemu.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "e0ca27ec344da208ad2f7da2d067315a50274b0d",
+      "Directory": "8.1",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1720552393
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/qemu:8.1.5",
+          "docker-pkg/qemu:8.1",
+          "docker-pkg/qemu:8.1.5-bookworm",
+          "docker-pkg/qemu:8.1-bookworm"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "c1feee6f1d1d4744eebef714806025062548b707e1b815cea84f5a1c93a3dd41": {
+    "sourceId": "c1feee6f1d1d4744eebef714806025062548b707e1b815cea84f5a1c93a3dd41",
+    "reproducibleGitChecksum": "a20b20f78996fabb50bf7fea63bf772697f5885e3af6a9b86e0a8084a3fb76d4",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/docker-qemu.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "e0ca27ec344da208ad2f7da2d067315a50274b0d",
+      "Directory": "8.1",
+      "File": "Dockerfile.native",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1720552393
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/qemu:8.1.5-native",
+          "docker-pkg/qemu:8.1-native",
+          "docker-pkg/qemu:8.1.5-native-bookworm",
+          "docker-pkg/qemu:8.1-native-bookworm"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v7": {
+        "tags": [
+          "docker-pkg/qemu:8.1.5-native",
+          "docker-pkg/qemu:8.1-native",
+          "docker-pkg/qemu:8.1.5-native-bookworm",
+          "docker-pkg/qemu:8.1-native-bookworm"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/arm/v7",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v7"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "docker-pkg/qemu:8.1.5-native",
+          "docker-pkg/qemu:8.1-native",
+          "docker-pkg/qemu:8.1.5-native-bookworm",
+          "docker-pkg/qemu:8.1-native-bookworm"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "96ffea5d10233b8570c1c48aac5ba50609b970fc27a1917e3762ba4256fb7b5f": {
+    "sourceId": "96ffea5d10233b8570c1c48aac5ba50609b970fc27a1917e3762ba4256fb7b5f",
+    "reproducibleGitChecksum": "fde2cfb6d684bb012e94b747d638ef575e4d55b7996b8e947d995441b0ea41bc",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/docker-qemu.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "72cd4ebd938b1628a5e6d0abbd2ceac1590aef88",
+      "Directory": "8.2",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1721320862
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/qemu:8.2.6",
+          "docker-pkg/qemu:8.2",
+          "docker-pkg/qemu:8",
+          "docker-pkg/qemu:8.2.6-bookworm",
+          "docker-pkg/qemu:8.2-bookworm",
+          "docker-pkg/qemu:8-bookworm"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "31585169f43943077051a4acffa269b871ee57192bcc7d655f4cd43e54e8ba6b": {
+    "sourceId": "31585169f43943077051a4acffa269b871ee57192bcc7d655f4cd43e54e8ba6b",
+    "reproducibleGitChecksum": "fde2cfb6d684bb012e94b747d638ef575e4d55b7996b8e947d995441b0ea41bc",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/docker-qemu.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "72cd4ebd938b1628a5e6d0abbd2ceac1590aef88",
+      "Directory": "8.2",
+      "File": "Dockerfile.native",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1721320862
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/qemu:8.2.6-native",
+          "docker-pkg/qemu:8.2-native",
+          "docker-pkg/qemu:8-native",
+          "docker-pkg/qemu:8.2.6-native-bookworm",
+          "docker-pkg/qemu:8.2-native-bookworm",
+          "docker-pkg/qemu:8-native-bookworm"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v7": {
+        "tags": [
+          "docker-pkg/qemu:8.2.6-native",
+          "docker-pkg/qemu:8.2-native",
+          "docker-pkg/qemu:8-native",
+          "docker-pkg/qemu:8.2.6-native-bookworm",
+          "docker-pkg/qemu:8.2-native-bookworm",
+          "docker-pkg/qemu:8-native-bookworm"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/arm/v7",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v7"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "docker-pkg/qemu:8.2.6-native",
+          "docker-pkg/qemu:8.2-native",
+          "docker-pkg/qemu:8-native",
+          "docker-pkg/qemu:8.2.6-native-bookworm",
+          "docker-pkg/qemu:8.2-native-bookworm",
+          "docker-pkg/qemu:8-native-bookworm"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "34e6c323fd79ad8b3f244773970330ad9d9de33ce443de21dae888403712984a": {
+    "sourceId": "34e6c323fd79ad8b3f244773970330ad9d9de33ce443de21dae888403712984a",
+    "reproducibleGitChecksum": "23c930401f4bee25a8db3c3e613c4197999ac174ee93d238b1e7894ede0fe933",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/docker-qemu.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "72cd4ebd938b1628a5e6d0abbd2ceac1590aef88",
+      "Directory": "9.0",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1721320862
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/qemu:9.0.2",
+          "docker-pkg/qemu:9.0",
+          "docker-pkg/qemu:9",
+          "docker-pkg/qemu:latest",
+          "docker-pkg/qemu:9.0.2-bookworm",
+          "docker-pkg/qemu:9.0-bookworm",
+          "docker-pkg/qemu:9-bookworm",
+          "docker-pkg/qemu:bookworm"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "44b71ecb49ef9765be363d23a01f566af7a48ccc2b1472e7b359682c3ee65fcf": {
+    "sourceId": "44b71ecb49ef9765be363d23a01f566af7a48ccc2b1472e7b359682c3ee65fcf",
+    "reproducibleGitChecksum": "23c930401f4bee25a8db3c3e613c4197999ac174ee93d238b1e7894ede0fe933",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/docker-qemu.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "72cd4ebd938b1628a5e6d0abbd2ceac1590aef88",
+      "Directory": "9.0",
+      "File": "Dockerfile.native",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1721320862
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/qemu:9.0.2-native",
+          "docker-pkg/qemu:9.0-native",
+          "docker-pkg/qemu:9-native",
+          "docker-pkg/qemu:native",
+          "docker-pkg/qemu:9.0.2-native-bookworm",
+          "docker-pkg/qemu:9.0-native-bookworm",
+          "docker-pkg/qemu:9-native-bookworm",
+          "docker-pkg/qemu:native-bookworm"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v7": {
+        "tags": [
+          "docker-pkg/qemu:9.0.2-native",
+          "docker-pkg/qemu:9.0-native",
+          "docker-pkg/qemu:9-native",
+          "docker-pkg/qemu:native",
+          "docker-pkg/qemu:9.0.2-native-bookworm",
+          "docker-pkg/qemu:9.0-native-bookworm",
+          "docker-pkg/qemu:9-native-bookworm",
+          "docker-pkg/qemu:native-bookworm"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/arm/v7",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v7"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "docker-pkg/qemu:9.0.2-native",
+          "docker-pkg/qemu:9.0-native",
+          "docker-pkg/qemu:9-native",
+          "docker-pkg/qemu:native",
+          "docker-pkg/qemu:9.0.2-native-bookworm",
+          "docker-pkg/qemu:9.0-native-bookworm",
+          "docker-pkg/qemu:9-native-bookworm",
+          "docker-pkg/qemu:native-bookworm"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "c0f8ebf380f223c75159545bee71843f801afe03013ccf3878740d3232f9bf82": {
+    "sourceId": "c0f8ebf380f223c75159545bee71843f801afe03013ccf3878740d3232f9bf82",
+    "reproducibleGitChecksum": "03adc0e823acb10947d8ecce9582223427e596003988b5241f1b7f1d557d5070",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/docker-qemu.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "b6be38ed649b8356684c9ac71db4d3b4af761990",
+      "Directory": "9.1-rc",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1724383568
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/qemu:9.1.0-rc3",
+          "docker-pkg/qemu:9.1-rc",
+          "docker-pkg/qemu:9.1.0-rc3-bookworm",
+          "docker-pkg/qemu:9.1-rc-bookworm"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "bae45ae966a21202610224b7d4eec3ca5b9c785c583458c8d5ebbfb17401b71f": {
+    "sourceId": "bae45ae966a21202610224b7d4eec3ca5b9c785c583458c8d5ebbfb17401b71f",
+    "reproducibleGitChecksum": "03adc0e823acb10947d8ecce9582223427e596003988b5241f1b7f1d557d5070",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/docker-qemu.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "b6be38ed649b8356684c9ac71db4d3b4af761990",
+      "Directory": "9.1-rc",
+      "File": "Dockerfile.native",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1724383568
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/qemu:9.1.0-rc3-native",
+          "docker-pkg/qemu:9.1-rc-native",
+          "docker-pkg/qemu:9.1.0-rc3-native-bookworm",
+          "docker-pkg/qemu:9.1-rc-native-bookworm"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v7": {
+        "tags": [
+          "docker-pkg/qemu:9.1.0-rc3-native",
+          "docker-pkg/qemu:9.1-rc-native",
+          "docker-pkg/qemu:9.1.0-rc3-native-bookworm",
+          "docker-pkg/qemu:9.1-rc-native-bookworm"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/arm/v7",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v7"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "docker-pkg/qemu:9.1.0-rc3-native",
+          "docker-pkg/qemu:9.1-rc-native",
+          "docker-pkg/qemu:9.1.0-rc3-native-bookworm",
+          "docker-pkg/qemu:9.1-rc-native-bookworm"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "46f9c62eba44ee9dd1fcef28d3f907d4e2ac387700657900343122ed6b485b46": {
+    "sourceId": "46f9c62eba44ee9dd1fcef28d3f907d4e2ac387700657900343122ed6b485b46",
+    "reproducibleGitChecksum": "f4a3bee1ee56a3d6fdd6c7ae4919d42172bbb33c9359609924fdf62f9ab0ab99",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/rawdns.git",
+      "GitFetch": "refs/tags/1.10",
+      "GitCommit": "943c5570231f4301525f6a50383d29bb4047cb83",
+      "Directory": ".",
+      "File": "Dockerfile.production",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1705682068
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/rawdns:1.10",
+          "docker-pkg/rawdns:1",
+          "docker-pkg/rawdns:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.19"
+        ],
+        "lastStageFrom": "alpine:3.19",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "alpine:3.19": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "fe4922fadf7f98805cf912e7b113346daa3badba3c65a067ec803de9ccca6d55": {
+    "sourceId": "fe4922fadf7f98805cf912e7b113346daa3badba3c65a067ec803de9ccca6d55",
+    "reproducibleGitChecksum": "e9d5b01604f001d302c1d6085227ab65fea6ee6b49df0b6ddd183064acc90f80",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/rawdns.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "2dc31ac12e7d27c7d0e535fda47e8beab33e04d8",
+      "Directory": ".",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1709985831
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/rawdns:master"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.21-alpine3.19"
+        ],
+        "lastStageFrom": "golang:1.21-alpine3.19",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "golang:1.21-alpine3.19": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "cae4e8e52b3863ad6a7382e1d27b8513ca573df8caa22f4290af76df75172dc9": {
+    "sourceId": "cae4e8e52b3863ad6a7382e1d27b8513ca573df8caa22f4290af76df75172dc9",
+    "reproducibleGitChecksum": "b59692d0e7caaf41aa3bbffa30cedab6534ec8e7437f5c3aa1decc405f86704d",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "35cf3d4487840cc3ae58f3b55f54d198b224eba9",
+      "Directory": "rtl-433",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1701213906
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/rtl-433:23.11",
+          "docker-pkg/rtl-433:23",
+          "docker-pkg/rtl-433:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bullseye-slim"
+        ],
+        "lastStageFrom": "debian:bullseye-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bullseye-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "71ae94391bd9558b66a4425d1223c3b3c89af1e775d71fb8170e1bf47f160650": {
+    "sourceId": "71ae94391bd9558b66a4425d1223c3b3c89af1e775d71fb8170e1bf47f160650",
+    "reproducibleGitChecksum": "2018b76671e2c6e7d7745aeb01fe486a23613b35a70f130baf5bec9e3f8fcff2",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "883a7632cd39d13812510e1e5973426601ccea5e",
+      "Directory": "rtorrent",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1696214040
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/rtorrent:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "3b3440c2b4a29c4710b61007f3b4dee5033669c0e0f3cdce1a71a2166c8131ea": {
+    "sourceId": "3b3440c2b4a29c4710b61007f3b4dee5033669c0e0f3cdce1a71a2166c8131ea",
+    "reproducibleGitChecksum": "490e5afd8c355d602931e4c1f20cae9b66d992b277d2a6172338e65295c0ad68",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "d7b87fea796ea3ea68229810d7c59f1762b014c0",
+      "Directory": "signal-desktop",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1724974011
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/signal-desktop:7.22.2",
+          "docker-pkg/signal-desktop:7.22",
+          "docker-pkg/signal-desktop:7",
+          "docker-pkg/signal-desktop:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bullseye-slim"
+        ],
+        "lastStageFrom": "debian:bullseye-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bullseye-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "e48e40d316b316f12692e8bae104a05ce49455bc6abe7a3976d257638df0de82": {
+    "sourceId": "e48e40d316b316f12692e8bae104a05ce49455bc6abe7a3976d257638df0de82",
+    "reproducibleGitChecksum": "550fdcd6807c3e66eb085c0909509fcbbdb246fd3946d5258e1514cfdc6da2c6",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "2b2dbd07ae840b22eed49a0cb108766fd9a033d1",
+      "Directory": "slack",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1723073151
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/slack:4.39.95",
+          "docker-pkg/slack:4.39",
+          "docker-pkg/slack:4",
+          "docker-pkg/slack:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bullseye-slim"
+        ],
+        "lastStageFrom": "debian:bullseye-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bullseye-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "cfe268f86219efb9842884df051dae729cf1cc601a1f61aaeec71ccadd775ed2": {
+    "sourceId": "cfe268f86219efb9842884df051dae729cf1cc601a1f61aaeec71ccadd775ed2",
+    "reproducibleGitChecksum": "33975b16c28f97233a7223515bcefd78f9ecfb5db705d362e3b1db2cd18a03c3",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "7ffacf1cb72d1c615d7eb8fedfdd75e25ede42fe",
+      "Directory": "sleeping-beauty",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1570982507
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/sleeping-beauty:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "scratch"
+        ],
+        "lastStageFrom": "scratch",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "scratch": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "fda23e5473b7c6bd0dac7e6c460beed2ffce85d116fdea618c6793bc2d94cba7": {
+    "sourceId": "fda23e5473b7c6bd0dac7e6c460beed2ffce85d116fdea618c6793bc2d94cba7",
+    "reproducibleGitChecksum": "0c90c1cb529a85b6d1320d22ab8ef916480780aba0aae0e81847e1939beba03e",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "9fd71d580a6fbbceb4dc36d4bff249b7977fe2cf",
+      "Directory": "sleeping-beauty",
+      "File": "Dockerfile.nolibc",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1709021435
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/sleeping-beauty:nolibc"
+        ],
+        "archTags": [],
+        "froms": [
+          "docker-pkg/nolibc:latest",
+          "scratch",
+          "docker-pkg/nolibc:latest"
+        ],
+        "lastStageFrom": "scratch",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "docker-pkg/nolibc:latest": {
+            "sourceId": "eac45fc81f76227added970123834106097967460b450ac66a788c50d09649cf",
+            "pin": null
+          },
+          "scratch": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v5": {
+        "tags": [
+          "docker-pkg/sleeping-beauty:nolibc"
+        ],
+        "archTags": [],
+        "froms": [
+          "docker-pkg/nolibc:latest",
+          "scratch",
+          "docker-pkg/nolibc:latest"
+        ],
+        "lastStageFrom": "scratch",
+        "platformString": "linux/arm/v5",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v5"
+        },
+        "parents": {
+          "docker-pkg/nolibc:latest": {
+            "sourceId": "eac45fc81f76227added970123834106097967460b450ac66a788c50d09649cf",
+            "pin": null
+          },
+          "scratch": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v7": {
+        "tags": [
+          "docker-pkg/sleeping-beauty:nolibc"
+        ],
+        "archTags": [],
+        "froms": [
+          "docker-pkg/nolibc:latest",
+          "scratch",
+          "docker-pkg/nolibc:latest"
+        ],
+        "lastStageFrom": "scratch",
+        "platformString": "linux/arm/v7",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v7"
+        },
+        "parents": {
+          "docker-pkg/nolibc:latest": {
+            "sourceId": "eac45fc81f76227added970123834106097967460b450ac66a788c50d09649cf",
+            "pin": null
+          },
+          "scratch": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "docker-pkg/sleeping-beauty:nolibc"
+        ],
+        "archTags": [],
+        "froms": [
+          "docker-pkg/nolibc:latest",
+          "scratch",
+          "docker-pkg/nolibc:latest"
+        ],
+        "lastStageFrom": "scratch",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "docker-pkg/nolibc:latest": {
+            "sourceId": "eac45fc81f76227added970123834106097967460b450ac66a788c50d09649cf",
+            "pin": null
+          },
+          "scratch": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "i386": {
+        "tags": [
+          "docker-pkg/sleeping-beauty:nolibc"
+        ],
+        "archTags": [],
+        "froms": [
+          "docker-pkg/nolibc:latest",
+          "scratch",
+          "docker-pkg/nolibc:latest"
+        ],
+        "lastStageFrom": "scratch",
+        "platformString": "linux/386",
+        "platform": {
+          "architecture": "386",
+          "os": "linux"
+        },
+        "parents": {
+          "docker-pkg/nolibc:latest": {
+            "sourceId": "eac45fc81f76227added970123834106097967460b450ac66a788c50d09649cf",
+            "pin": null
+          },
+          "scratch": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "ppc64le": {
+        "tags": [
+          "docker-pkg/sleeping-beauty:nolibc"
+        ],
+        "archTags": [],
+        "froms": [
+          "docker-pkg/nolibc:latest",
+          "scratch",
+          "docker-pkg/nolibc:latest"
+        ],
+        "lastStageFrom": "scratch",
+        "platformString": "linux/ppc64le",
+        "platform": {
+          "architecture": "ppc64le",
+          "os": "linux"
+        },
+        "parents": {
+          "docker-pkg/nolibc:latest": {
+            "sourceId": "eac45fc81f76227added970123834106097967460b450ac66a788c50d09649cf",
+            "pin": null
+          },
+          "scratch": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "s390x": {
+        "tags": [
+          "docker-pkg/sleeping-beauty:nolibc"
+        ],
+        "archTags": [],
+        "froms": [
+          "docker-pkg/nolibc:latest",
+          "scratch",
+          "docker-pkg/nolibc:latest"
+        ],
+        "lastStageFrom": "scratch",
+        "platformString": "linux/s390x",
+        "platform": {
+          "architecture": "s390x",
+          "os": "linux"
+        },
+        "parents": {
+          "docker-pkg/nolibc:latest": {
+            "sourceId": "eac45fc81f76227added970123834106097967460b450ac66a788c50d09649cf",
+            "pin": null
+          },
+          "scratch": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "307786ed1ae32f66aaa6d14e70dd0b47fc0e6ae077cbc0638f5806c13f78d4fb": {
+    "sourceId": "307786ed1ae32f66aaa6d14e70dd0b47fc0e6ae077cbc0638f5806c13f78d4fb",
+    "reproducibleGitChecksum": "556a25a57cd9048a116fb1306e241e34e4bc126939f2fe6afd00c5c0f090e524",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "4922d021769ad38f171259fbce3a913cf5c863bd",
+      "Directory": "speedtest",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1722621935
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/speedtest:1.2.0",
+          "docker-pkg/speedtest:1.2",
+          "docker-pkg/speedtest:1",
+          "docker-pkg/speedtest:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.20"
+        ],
+        "lastStageFrom": "alpine:3.20",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "alpine:3.20": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v6": {
+        "tags": [
+          "docker-pkg/speedtest:1.2.0",
+          "docker-pkg/speedtest:1.2",
+          "docker-pkg/speedtest:1",
+          "docker-pkg/speedtest:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.20"
+        ],
+        "lastStageFrom": "alpine:3.20",
+        "platformString": "linux/arm/v6",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v6"
+        },
+        "parents": {
+          "alpine:3.20": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v7": {
+        "tags": [
+          "docker-pkg/speedtest:1.2.0",
+          "docker-pkg/speedtest:1.2",
+          "docker-pkg/speedtest:1",
+          "docker-pkg/speedtest:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.20"
+        ],
+        "lastStageFrom": "alpine:3.20",
+        "platformString": "linux/arm/v7",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v7"
+        },
+        "parents": {
+          "alpine:3.20": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "docker-pkg/speedtest:1.2.0",
+          "docker-pkg/speedtest:1.2",
+          "docker-pkg/speedtest:1",
+          "docker-pkg/speedtest:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.20"
+        ],
+        "lastStageFrom": "alpine:3.20",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "alpine:3.20": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "i386": {
+        "tags": [
+          "docker-pkg/speedtest:1.2.0",
+          "docker-pkg/speedtest:1.2",
+          "docker-pkg/speedtest:1",
+          "docker-pkg/speedtest:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.20"
+        ],
+        "lastStageFrom": "alpine:3.20",
+        "platformString": "linux/386",
+        "platform": {
+          "architecture": "386",
+          "os": "linux"
+        },
+        "parents": {
+          "alpine:3.20": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "039a0adacf69c96e40ed50098a6686cddba841eb20f165540e48d59faacb2c38": {
+    "sourceId": "039a0adacf69c96e40ed50098a6686cddba841eb20f165540e48d59faacb2c38",
+    "reproducibleGitChecksum": "9d5c85e831bd44cdbb020683a35d71ffc594048256dd90bb7b9159767edefffc",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/squignix.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "2e5d56da7914bfdf7764df527f3f6ecc7d9569c0",
+      "Directory": ".",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1718789442
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/squignix:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "nginx:alpine"
+        ],
+        "lastStageFrom": "nginx:alpine",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "nginx:alpine": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "0a3be57b00c9cb4beb1cd33454038d2768a288ab8cf409d99b70151fdf40a379": {
+    "sourceId": "0a3be57b00c9cb4beb1cd33454038d2768a288ab8cf409d99b70151fdf40a379",
+    "reproducibleGitChecksum": "dc146a74cf1461098b5075af3b11cc43ec7ffecbc7b71ee1c8744d0d9c1cf5f0",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "67d9dd9479f303ad647f2602a0ea62c9203a50bd",
+      "Directory": "steam",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1724282760
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/steam:1.0.0.81",
+          "docker-pkg/steam:1.0.0",
+          "docker-pkg/steam:1.0",
+          "docker-pkg/steam:1",
+          "docker-pkg/steam:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "ubuntu:22.04"
+        ],
+        "lastStageFrom": "ubuntu:22.04",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "ubuntu:22.04": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "f98ab723da37adce879730ae74b1e685d4b392272103ebc6aec61aeff316c383": {
+    "sourceId": "f98ab723da37adce879730ae74b1e685d4b392272103ebc6aec61aeff316c383",
+    "reproducibleGitChecksum": "82f5d56c3d03c88b6810825ecfc836c6bf86a1d7d58ec637df7ed6ead9c6f953",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/docker-syncthing.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "3a78242c536aa9c2156ed3ad3fa08224056a31a6",
+      "Directory": "1-rc",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1724836329
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/syncthing:1.27.11-rc.2",
+          "docker-pkg/syncthing:1-rc",
+          "docker-pkg/syncthing:rc"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.18"
+        ],
+        "lastStageFrom": "alpine:3.18",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "alpine:3.18": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v6": {
+        "tags": [
+          "docker-pkg/syncthing:1.27.11-rc.2",
+          "docker-pkg/syncthing:1-rc",
+          "docker-pkg/syncthing:rc"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.18"
+        ],
+        "lastStageFrom": "alpine:3.18",
+        "platformString": "linux/arm/v6",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v6"
+        },
+        "parents": {
+          "alpine:3.18": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v7": {
+        "tags": [
+          "docker-pkg/syncthing:1.27.11-rc.2",
+          "docker-pkg/syncthing:1-rc",
+          "docker-pkg/syncthing:rc"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.18"
+        ],
+        "lastStageFrom": "alpine:3.18",
+        "platformString": "linux/arm/v7",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v7"
+        },
+        "parents": {
+          "alpine:3.18": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "docker-pkg/syncthing:1.27.11-rc.2",
+          "docker-pkg/syncthing:1-rc",
+          "docker-pkg/syncthing:rc"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.18"
+        ],
+        "lastStageFrom": "alpine:3.18",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "alpine:3.18": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "i386": {
+        "tags": [
+          "docker-pkg/syncthing:1.27.11-rc.2",
+          "docker-pkg/syncthing:1-rc",
+          "docker-pkg/syncthing:rc"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.18"
+        ],
+        "lastStageFrom": "alpine:3.18",
+        "platformString": "linux/386",
+        "platform": {
+          "architecture": "386",
+          "os": "linux"
+        },
+        "parents": {
+          "alpine:3.18": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "ppc64le": {
+        "tags": [
+          "docker-pkg/syncthing:1.27.11-rc.2",
+          "docker-pkg/syncthing:1-rc",
+          "docker-pkg/syncthing:rc"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.18"
+        ],
+        "lastStageFrom": "alpine:3.18",
+        "platformString": "linux/ppc64le",
+        "platform": {
+          "architecture": "ppc64le",
+          "os": "linux"
+        },
+        "parents": {
+          "alpine:3.18": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "s390x": {
+        "tags": [
+          "docker-pkg/syncthing:1.27.11-rc.2",
+          "docker-pkg/syncthing:1-rc",
+          "docker-pkg/syncthing:rc"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.18"
+        ],
+        "lastStageFrom": "alpine:3.18",
+        "platformString": "linux/s390x",
+        "platform": {
+          "architecture": "s390x",
+          "os": "linux"
+        },
+        "parents": {
+          "alpine:3.18": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "06d0dbad2914faed60193c2ba94aaf72ed9377ebdf0b4b897ae1e02f5f369d18": {
+    "sourceId": "06d0dbad2914faed60193c2ba94aaf72ed9377ebdf0b4b897ae1e02f5f369d18",
+    "reproducibleGitChecksum": "0e1639b199f9380a9492b57436c1a073f070d55b6761631477c1f5fbad222727",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/docker-syncthing.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "1a0ad8b20efc9fa5ddb53b9e7b46e9477bdfb9da",
+      "Directory": "1",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1722969028
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/syncthing:1.27.10",
+          "docker-pkg/syncthing:1.27",
+          "docker-pkg/syncthing:1",
+          "docker-pkg/syncthing:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.18"
+        ],
+        "lastStageFrom": "alpine:3.18",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "alpine:3.18": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v6": {
+        "tags": [
+          "docker-pkg/syncthing:1.27.10",
+          "docker-pkg/syncthing:1.27",
+          "docker-pkg/syncthing:1",
+          "docker-pkg/syncthing:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.18"
+        ],
+        "lastStageFrom": "alpine:3.18",
+        "platformString": "linux/arm/v6",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v6"
+        },
+        "parents": {
+          "alpine:3.18": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v7": {
+        "tags": [
+          "docker-pkg/syncthing:1.27.10",
+          "docker-pkg/syncthing:1.27",
+          "docker-pkg/syncthing:1",
+          "docker-pkg/syncthing:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.18"
+        ],
+        "lastStageFrom": "alpine:3.18",
+        "platformString": "linux/arm/v7",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v7"
+        },
+        "parents": {
+          "alpine:3.18": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "docker-pkg/syncthing:1.27.10",
+          "docker-pkg/syncthing:1.27",
+          "docker-pkg/syncthing:1",
+          "docker-pkg/syncthing:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.18"
+        ],
+        "lastStageFrom": "alpine:3.18",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "alpine:3.18": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "i386": {
+        "tags": [
+          "docker-pkg/syncthing:1.27.10",
+          "docker-pkg/syncthing:1.27",
+          "docker-pkg/syncthing:1",
+          "docker-pkg/syncthing:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.18"
+        ],
+        "lastStageFrom": "alpine:3.18",
+        "platformString": "linux/386",
+        "platform": {
+          "architecture": "386",
+          "os": "linux"
+        },
+        "parents": {
+          "alpine:3.18": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "ppc64le": {
+        "tags": [
+          "docker-pkg/syncthing:1.27.10",
+          "docker-pkg/syncthing:1.27",
+          "docker-pkg/syncthing:1",
+          "docker-pkg/syncthing:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.18"
+        ],
+        "lastStageFrom": "alpine:3.18",
+        "platformString": "linux/ppc64le",
+        "platform": {
+          "architecture": "ppc64le",
+          "os": "linux"
+        },
+        "parents": {
+          "alpine:3.18": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "s390x": {
+        "tags": [
+          "docker-pkg/syncthing:1.27.10",
+          "docker-pkg/syncthing:1.27",
+          "docker-pkg/syncthing:1",
+          "docker-pkg/syncthing:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.18"
+        ],
+        "lastStageFrom": "alpine:3.18",
+        "platformString": "linux/s390x",
+        "platform": {
+          "architecture": "s390x",
+          "os": "linux"
+        },
+        "parents": {
+          "alpine:3.18": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "a79a71edb0ebb6020d47016d2800b6316543fb39167ee68388ee67e9207c6ccc": {
+    "sourceId": "a79a71edb0ebb6020d47016d2800b6316543fb39167ee68388ee67e9207c6ccc",
+    "reproducibleGitChecksum": "dca9e3b404fffe9af145f9647b9fea00e86e424ed93725af2063ec3d39441fa8",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "204ed3a6a003bde6ee7497a2f6158cee305c8f00",
+      "Directory": "tinygo",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1724196401
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/tinygo:0.33.0",
+          "docker-pkg/tinygo:0.33",
+          "docker-pkg/tinygo:0",
+          "docker-pkg/tinygo:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.19-bullseye"
+        ],
+        "lastStageFrom": "golang:1.19-bullseye",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "golang:1.19-bullseye": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "fc9d080c5a0c97aa5626c0f010a966a72eab44c715b6d96e2c8d022ffd4b46bb": {
+    "sourceId": "fc9d080c5a0c97aa5626c0f010a966a72eab44c715b6d96e2c8d022ffd4b46bb",
+    "reproducibleGitChecksum": "2a6ae8b83a15a0d584a4c094b3ab5f9e632f778dbca8195df6e95b44273b1195",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "4922d021769ad38f171259fbce3a913cf5c863bd",
+      "Directory": "toybox",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1722621935
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/toybox:0.8.11",
+          "docker-pkg/toybox:0.8",
+          "docker-pkg/toybox:0",
+          "docker-pkg/toybox:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.20",
+          "scratch",
+          "alpine:3.20"
+        ],
+        "lastStageFrom": "scratch",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "alpine:3.20": {
+            "sourceId": null,
+            "pin": null
+          },
+          "scratch": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "docker-pkg/toybox:0.8.11",
+          "docker-pkg/toybox:0.8",
+          "docker-pkg/toybox:0",
+          "docker-pkg/toybox:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.20",
+          "scratch",
+          "alpine:3.20"
+        ],
+        "lastStageFrom": "scratch",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "alpine:3.20": {
+            "sourceId": null,
+            "pin": null
+          },
+          "scratch": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "f5f5c9e6e11fd02cff53245b41366e4e4b1c5a1c043a1d96ff4eccdb19194abc": {
+    "sourceId": "f5f5c9e6e11fd02cff53245b41366e4e4b1c5a1c043a1d96ff4eccdb19194abc",
+    "reproducibleGitChecksum": "dd443a9eeed44b2f73674af0954ae79ee4efd1b65dfbe35f5911914ec8b1bf18",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "bfa71889cd8e48e7a1d2632422785c479bd9bd45",
+      "Directory": "true",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1675234271
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/true:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "scratch"
+        ],
+        "lastStageFrom": "scratch",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "scratch": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "ffc37b0864706846f1f9f014df57ac0572ab9dd9eb99f5f0d318b26cd19f4721": {
+    "sourceId": "ffc37b0864706846f1f9f014df57ac0572ab9dd9eb99f5f0d318b26cd19f4721",
+    "reproducibleGitChecksum": "203c5d023e44b5df1f46d41df253a770ed508c672738625b91ff3f464193fbdb",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "47fe0d0cb5ede5a36907162c25b058fd926f22fc",
+      "Directory": "true",
+      "File": "Dockerfile.yolo",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1677043314
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/true:yolo"
+        ],
+        "archTags": [],
+        "froms": [
+          "scratch"
+        ],
+        "lastStageFrom": "scratch",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "scratch": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "e7c8aafc22a0b19807156c10c3b5b26ad89adf984d1ff6b01b4e7ac4ced686db": {
+    "sourceId": "e7c8aafc22a0b19807156c10c3b5b26ad89adf984d1ff6b01b4e7ac4ced686db",
+    "reproducibleGitChecksum": "c25f5c3460648613275febf5a0c5efd5d0f5864731e0bada26cd20ce6c3903c2",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/uscan-helper.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "c37a01dcd2ec254226b8a643cbc94ccf27c5f3de",
+      "Directory": ".",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1611984634
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/uscan-helper:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "golang:1.15-alpine3.13"
+        ],
+        "lastStageFrom": "golang:1.15-alpine3.13",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "golang:1.15-alpine3.13": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "e0b5043399c9e3e67f60acf606b6d4f5c6dc4cfd518fd46167550aeacdd30d69": {
+    "sourceId": "e0b5043399c9e3e67f60acf606b6d4f5c6dc4cfd518fd46167550aeacdd30d69",
+    "reproducibleGitChecksum": "1f8daa55e93b8ed066edee68bcdda77754bc35976c462c6a335b0a8d76fdfcf1",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "4922d021769ad38f171259fbce3a913cf5c863bd",
+      "Directory": "vultr-cli",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1722621935
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/vultr-cli:3.3.1",
+          "docker-pkg/vultr-cli:3.3",
+          "docker-pkg/vultr-cli:3",
+          "docker-pkg/vultr-cli:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.20"
+        ],
+        "lastStageFrom": "alpine:3.20",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "alpine:3.20": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v6": {
+        "tags": [
+          "docker-pkg/vultr-cli:3.3.1",
+          "docker-pkg/vultr-cli:3.3",
+          "docker-pkg/vultr-cli:3",
+          "docker-pkg/vultr-cli:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.20"
+        ],
+        "lastStageFrom": "alpine:3.20",
+        "platformString": "linux/arm/v6",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v6"
+        },
+        "parents": {
+          "alpine:3.20": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v7": {
+        "tags": [
+          "docker-pkg/vultr-cli:3.3.1",
+          "docker-pkg/vultr-cli:3.3",
+          "docker-pkg/vultr-cli:3",
+          "docker-pkg/vultr-cli:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.20"
+        ],
+        "lastStageFrom": "alpine:3.20",
+        "platformString": "linux/arm/v7",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v7"
+        },
+        "parents": {
+          "alpine:3.20": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "docker-pkg/vultr-cli:3.3.1",
+          "docker-pkg/vultr-cli:3.3",
+          "docker-pkg/vultr-cli:3",
+          "docker-pkg/vultr-cli:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "alpine:3.20"
+        ],
+        "lastStageFrom": "alpine:3.20",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "alpine:3.20": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "7fda4bb4d910268652d0907167f3ef57ab59586cd71b5d946fda53923bc13c31": {
+    "sourceId": "7fda4bb4d910268652d0907167f3ef57ab59586cd71b5d946fda53923bc13c31",
+    "reproducibleGitChecksum": "abc8e8e851cde22ddbf5ed73d58700dd4d1960bf68b67596fd9ac7af6a00a64f",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "e64b7acf8b6818513511994375a7b88fcacd97e7",
+      "Directory": "weechat",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1724109990
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/weechat:4.4.1-1",
+          "docker-pkg/weechat:4.4.1",
+          "docker-pkg/weechat:4.4",
+          "docker-pkg/weechat:4",
+          "docker-pkg/weechat:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bullseye-slim"
+        ],
+        "lastStageFrom": "debian:bullseye-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bullseye-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "b04693af7ad6a9f477ec463ad44c5344095d526d281388405df024d9fb11c2ce": {
+    "sourceId": "b04693af7ad6a9f477ec463ad44c5344095d526d281388405df024d9fb11c2ce",
+    "reproducibleGitChecksum": "79527480dc09f64bc9b4da301739aa386c706a08b8416c786f97aa80f8297577",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "4896e252535e8256964ad40f771043a850061e7f",
+      "Directory": "wine",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1705533985
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/wine:9.0.0.0",
+          "docker-pkg/wine:9.0.0",
+          "docker-pkg/wine:9.0",
+          "docker-pkg/wine:9",
+          "docker-pkg/wine:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bullseye-slim"
+        ],
+        "lastStageFrom": "debian:bullseye-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bullseye-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "c31bd51fb99468c604e70a287de2e49c63ec2317ae324635935d0a7e7fde6a3c": {
+    "sourceId": "c31bd51fb99468c604e70a287de2e49c63ec2317ae324635935d0a7e7fde6a3c",
+    "reproducibleGitChecksum": "36cb917b964ada9776a00cc9d41c8eddfd0993e63169f9bca79c4a6692ebbfc3",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "4922d021769ad38f171259fbce3a913cf5c863bd",
+      "Directory": "ymlfmt",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1722621935
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/ymlfmt:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "python:3.12-alpine3.20"
+        ],
+        "lastStageFrom": "python:3.12-alpine3.20",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "python:3.12-alpine3.20": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "72bf4eb67534501c962cf06ce7a7e95e8a3a7cdbf4d6b356bd2e06d9bbc90382": {
+    "sourceId": "72bf4eb67534501c962cf06ce7a7e95e8a3a7cdbf4d6b356bd2e06d9bbc90382",
+    "reproducibleGitChecksum": "8197ac63fff1c0498d476d302c5e6733318cded45a8a89505bb93db931bbd579",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "06d32d5eba25dc780266d4d266544661b0572acb",
+      "Directory": "zoom",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1724714788
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/zoom:6.1.11.1545",
+          "docker-pkg/zoom:6.1.11",
+          "docker-pkg/zoom:6.1",
+          "docker-pkg/zoom:6",
+          "docker-pkg/zoom:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bullseye-slim"
+        ],
+        "lastStageFrom": "debian:bullseye-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bullseye-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "236d56cd470c3d456845c86b060ba92ee02003ed8256c833507c00bee6fc8a7e": {
+    "sourceId": "236d56cd470c3d456845c86b060ba92ee02003ed8256c833507c00bee6fc8a7e",
+    "reproducibleGitChecksum": "729bd3f0f189bca23c83a057ee61a4f19f8d7d444968d9aea998c069cb6ca7e7",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "1461dbdd7bda6d51c0219e8a7cf7eae03669de93",
+      "Directory": "mojo",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1675269649
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "docker-pkg/mojo:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "docker-pkg/perl:latest"
+        ],
+        "lastStageFrom": "docker-pkg/perl:latest",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "docker-pkg/perl:latest": {
+            "sourceId": "e103c086a6200d68ea6b445f805390b7d239a62e499a2198fe4366e1846cf3b5",
+            "pin": null
+          }
+        }
+      }
+    }
+  }
+}
