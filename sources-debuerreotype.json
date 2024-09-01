@@ -1,0 +1,75 @@
+{
+  "c36ca03f10e3af77123d15edc338a7927951571cee4780f4c4268e2cc26f298e": {
+    "sourceId": "c36ca03f10e3af77123d15edc338a7927951571cee4780f4c4268e2cc26f298e",
+    "reproducibleGitChecksum": "014bb7e84b0f41a324c95f28b346e29083f9ad7adc5238d4b18270e7e458389b",
+    "entry": {
+      "GitRepo": "https://github.com/debuerreotype/debuerreotype.git",
+      "GitFetch": "refs/tags/0.15",
+      "GitCommit": "13a5a14f457d296f486a14713fcc3007e9e71d60",
+      "Directory": ".",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1656699941
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "debuerreotype/debuerreotype:0.15",
+          "debuerreotype/debuerreotype:latest"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bullseye-slim"
+        ],
+        "lastStageFrom": "debian:bullseye-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bullseye-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "9214628d9bc67bd4d210b2738247f47559161d50c47d10909257fbd03fd30262": {
+    "sourceId": "9214628d9bc67bd4d210b2738247f47559161d50c47d10909257fbd03fd30262",
+    "reproducibleGitChecksum": "c586d4f94ec1ad23826c788edda37c5e870de2d6f699f71db78de9eeacb86e08",
+    "entry": {
+      "GitRepo": "https://github.com/debuerreotype/debuerreotype.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "fa7674d43b8674a5800523455ad7ed4cb3ce44ef",
+      "Directory": ".",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1720564019
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "debuerreotype/debuerreotype:master"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bullseye-slim"
+        ],
+        "lastStageFrom": "debian:bullseye-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bullseye-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  }
+}

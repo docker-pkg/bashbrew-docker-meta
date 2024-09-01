@@ -1,0 +1,260 @@
+{
+  "36f59b7fd5be04f3d3e2928f5578ebf2c68d1a7438f049454460938c4e731bde": {
+    "sourceId": "36f59b7fd5be04f3d3e2928f5578ebf2c68d1a7438f049454460938c4e731bde",
+    "reproducibleGitChecksum": "fe1f722d8ac59440f993cae159961f6711c117dfe75f2e7475c775db51fd150b",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "1862a45d006b2a5f6811465b68f3628ef31ceb33",
+      "Directory": "infosiftr-moby",
+      "File": "Dockerfile",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1719952918
+    },
+    "arches": {
+      "amd64": {
+        "tags": [
+          "infosiftr/moby:23.0.11",
+          "infosiftr/moby:23.0",
+          "infosiftr/moby:23",
+          "infosiftr/moby:latest",
+          "infosiftr/moby:amd64"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/amd64",
+        "platform": {
+          "architecture": "amd64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v5": {
+        "tags": [
+          "infosiftr/moby:23.0.11",
+          "infosiftr/moby:23.0",
+          "infosiftr/moby:23",
+          "infosiftr/moby:latest",
+          "infosiftr/moby:arm32v5"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/arm/v5",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v5"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm32v7": {
+        "tags": [
+          "infosiftr/moby:23.0.11",
+          "infosiftr/moby:23.0",
+          "infosiftr/moby:23",
+          "infosiftr/moby:latest",
+          "infosiftr/moby:arm32v7"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/arm/v7",
+        "platform": {
+          "architecture": "arm",
+          "os": "linux",
+          "variant": "v7"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "arm64v8": {
+        "tags": [
+          "infosiftr/moby:23.0.11",
+          "infosiftr/moby:23.0",
+          "infosiftr/moby:23",
+          "infosiftr/moby:latest",
+          "infosiftr/moby:arm64v8"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/arm64/v8",
+        "platform": {
+          "architecture": "arm64",
+          "os": "linux",
+          "variant": "v8"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "i386": {
+        "tags": [
+          "infosiftr/moby:23.0.11",
+          "infosiftr/moby:23.0",
+          "infosiftr/moby:23",
+          "infosiftr/moby:latest",
+          "infosiftr/moby:i386"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/386",
+        "platform": {
+          "architecture": "386",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "mips64le": {
+        "tags": [
+          "infosiftr/moby:23.0.11",
+          "infosiftr/moby:23.0",
+          "infosiftr/moby:23",
+          "infosiftr/moby:latest",
+          "infosiftr/moby:mips64le"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/mips64le",
+        "platform": {
+          "architecture": "mips64le",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "ppc64le": {
+        "tags": [
+          "infosiftr/moby:23.0.11",
+          "infosiftr/moby:23.0",
+          "infosiftr/moby:23",
+          "infosiftr/moby:latest",
+          "infosiftr/moby:ppc64le"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/ppc64le",
+        "platform": {
+          "architecture": "ppc64le",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      },
+      "s390x": {
+        "tags": [
+          "infosiftr/moby:23.0.11",
+          "infosiftr/moby:23.0",
+          "infosiftr/moby:23",
+          "infosiftr/moby:latest",
+          "infosiftr/moby:s390x"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:bookworm-slim"
+        ],
+        "lastStageFrom": "debian:bookworm-slim",
+        "platformString": "linux/s390x",
+        "platform": {
+          "architecture": "s390x",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:bookworm-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  },
+  "54e0e909871b3c11e68d23c8d15f9e9b7618c7712ac89eac8cf39e422ddea71d": {
+    "sourceId": "54e0e909871b3c11e68d23c8d15f9e9b7618c7712ac89eac8cf39e422ddea71d",
+    "reproducibleGitChecksum": "fe1f722d8ac59440f993cae159961f6711c117dfe75f2e7475c775db51fd150b",
+    "entry": {
+      "GitRepo": "https://github.com/docker-pkg/dockerfiles.git",
+      "GitFetch": "refs/heads/master",
+      "GitCommit": "1862a45d006b2a5f6811465b68f3628ef31ceb33",
+      "Directory": "infosiftr-moby",
+      "File": "Dockerfile.unstable",
+      "Builder": "",
+      "SOURCE_DATE_EPOCH": 1719952918
+    },
+    "arches": {
+      "riscv64": {
+        "tags": [
+          "infosiftr/moby:23.0.11",
+          "infosiftr/moby:23.0",
+          "infosiftr/moby:23",
+          "infosiftr/moby:latest",
+          "infosiftr/moby:riscv64"
+        ],
+        "archTags": [],
+        "froms": [
+          "debian:unstable-slim"
+        ],
+        "lastStageFrom": "debian:unstable-slim",
+        "platformString": "linux/riscv64",
+        "platform": {
+          "architecture": "riscv64",
+          "os": "linux"
+        },
+        "parents": {
+          "debian:unstable-slim": {
+            "sourceId": null,
+            "pin": null
+          }
+        }
+      }
+    }
+  }
+}

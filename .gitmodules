@@ -1,0 +1,3 @@
+[submodule "doi-meta-scripts"]
+	path = doi-meta-scripts
+	url = https://github.com/docker-pkg/doi-meta-scripts
